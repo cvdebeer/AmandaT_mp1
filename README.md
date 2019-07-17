@@ -29,6 +29,10 @@ Features Left to Implement
 Another feature idea
 
 # H2 Technologies Used
+
+🔸 Favicon- https://www.quora.com/How-can-I-get-the-logo-on-title-bar (working code to get the icon into the tab bar at the top of the page)  and https://convertico.com/  - to convert my png to ico so that it is more compatible with all browsers
+🔸 Google fonts- Jura, Marck Script and Exo 2
+
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 JQuery 
 The project uses JQuery to simplify DOM manipulation.
@@ -55,12 +59,12 @@ Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 # H2 Credits
-
+Thanks to Anthony O'Brien on slack for helping me with my header.
 # H3 Content
 The text for section Y was copied from the Wikipedia article Z
 
 # H3 Media
 The photos used in this site were obtained from ...
-
+Songbird for logo and icon - https://svgsilh.com/image/1295782.html
 # H3 Acknowledgements
 I received inspiration for this project from X

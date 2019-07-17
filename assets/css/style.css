@@ -1,5 +1,9 @@
+/*-----------------------------------------------------------Fonts
+font-family: 'Jura', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Marck Script', cursive;
  
- 
+ */
  
  body {
   margin: 0;
@@ -8,32 +12,47 @@
  
  
  /* ------------------------------------------------------------Header */
+
  .heading {
   margin-top: 15px;
   padding: 0;
+  text-align: center;
  }
- 
+
  .sm-links {
   padding: 0;
   font-size: x-large;
   color: #cc5500;
+  margin-left: 25px;
+ 
  }
 
- .title {
+ .title h1 {
    padding: 0;  
+   font-family: 'Jura', sans-serif;
+   font-weight: 700;
+   color: #0300CC;
+   text-align: center;
  }
  
-  .title img {
-  margin:10px;
-  padding: 0;
-     height: 20px;
-     width: 20px;
-     float: left;
+.title .subtitle {
+  font-family: 'Marck Script', cursive;
+  font-size: 20px;
+  font-weight: 200;
  }
  
  .in-touch {
-     padding: 0;
-     margin-left: 0;
+     font-family: 'Exo 2', sans-serif;
+     text-align: right;
+     margin-right: 25px;
+    
+     
+ }
+ 
+ .go-btn {
+    color: #fff;
+  background-color: #CC5500;
+  border-color: #CC5500;
  }
  
 
@@ -46,17 +65,35 @@
  
  /* -----------------------------------------------------------Navbar */
  
-   .logo {
+.logo {
     padding: 0;
     size: auto;
     }
 .nav-text {
  margin: auto;
+ font-family: 'Exo 2', sans-serif;
     }
-   
-    .container-fluid{
+  
+.container-fluid {
      padding: 0;
-    }
-    .nav-divi {
-        
-         }
+     background-color: #fff;
+}
+
+.navstyle{
+ 
+}
+.nav-item span {
+ display: block;
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.nav-item a i {
+ display: block;
+ text-align: center;
+ 
+}
