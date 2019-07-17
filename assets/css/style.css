@@ -4,106 +4,98 @@ font-family: 'Exo 2', sans-serif;
 font-family: 'Marck Script', cursive;
  
  */
- 
- body {
-  margin: 0;
-  padding: 0;
- }
- 
- 
- /* ------------------------------------------------------------Header */
-/*
- .heading {
-   padding: 0;
-   margin: 0;
-   display: inline-block;
-  }
-  */
-  
+
+body {
+ margin: 0;
+ padding: 0;
+}
 
 
- .sm-links {
-  padding: 0;
-  font-size: x-large;
-  color: #cc5500;
-margin-top:20px;
- 
- }
- 
- .title {
-  text-align:center;
- }
+/* ------------------------------------------------------------Header */
 
- .title h1 {
-   padding: 0;  
-   font-family: 'Jura', sans-serif;
-   font-weight: 700;
-   color: #0300CC;
-   text-align: center;
- }
- 
+
+.sm-links {
+ padding: 0;
+ font-size: x-large;
+ color: #cc5500;
+ margin-top: 10px;
+
+}
+
+.title {
+ text-align: center;
+}
+
+.title h1 {
+ padding: 0;
+ font-family: 'Jura', sans-serif;
+ font-weight: 700;
+ color: #0300CC;
+ text-align: center;
+}
+
 .title .subtitle {
-  font-family: 'Marck Script', cursive;
-  font-size: 20px;
-  font-weight: 200;
- }
+ font-family: 'Marck Script', cursive;
+ font-size: 20px;
+ font-weight: 200;
+}
 
- .in-touch {
-   padding: 0;  
-   text-align: right;
+.in-touch {
+ padding: 0;
+ text-align: right;
 
-     }
- 
- .go-btn {
-    color: #fff;
-  background-color: #CC5500;
-  border-color: #CC5500;
-  font-family: 'Exo 2', sans-serif;
-  margin-top: 20px;
-  margin-right: 40px;
- 
-    }
- 
+}
+
+.go-btn {
+ color: #fff;
+ background-color: #CC5500;
+ border-color: #CC5500;
+ font-family: 'Exo 2', sans-serif;
+ margin-top: 10px;
+ margin-right: 40px;
+
+}
+
+.uppercase {
+ text-transform: uppercase;
+}
 
 
- 
- .uppercase {
-  text-transform: uppercase;
- }
- 
- 
- /* -----------------------------------------------------------Navbar */
- 
-.logo {
-    padding: 0;
-    size: auto;
-    }
+/* -----------------------------------------------------------Navbar */
+
+.container-fluid {
+ padding: 0;
+ background-color: #fff;
+}
+
 .nav-text {
  margin: auto;
+ padding-left: 15px;
  font-family: 'Exo 2', sans-serif;
  text-align: center;
-    }
-  
-.container-fluid {
-     padding: 0;
-     background-color: #fff;
+ background-color: #CC5500;
 }
 
-.navstyle{
- 
+
 }
+.navstyle {
+ margin-left: -65px;
+ }
+
 .nav-item span {
  display: block;
-    width: 100%;
-    padding: 0 15px;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 3px;
+ width: 100%;
+ padding: 0 15px;
+ text-align: center;
+ font-size: 15px;
+ font-weight: 400;
+ letter-spacing: 3px;
+ color: #fff;
 }
 
 .nav-item a i {
  display: block;
  text-align: center;
- 
+ color: #fff;
+
 }
