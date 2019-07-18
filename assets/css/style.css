@@ -13,7 +13,6 @@ body {
 
 /* ------------------------------------------------------------Header */
 
-
 .sm-links {
  padding: 0;
  font-size: x-large;
@@ -76,36 +75,81 @@ body {
  background-color: #CC5500;
 }
 
+ .navbar-toggler {
+  border: 1px solid rgb(255, 255, 255);
+ }
+ .navstyle {
+  margin-left: -65px;
+ }
 
-.navbar-toggler{
-border: 1px solid rgb(255,255,255);
-}
-.navstyle {
- margin-left: -65px;
+ .nav-item span {
+  display: block;
+  width: 100%;
+  padding: 0 15px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #fff;
  }
  
+  .nav-item a i {
+  display: block;
+  text-align: center;
+  color: #fff;
+
+ }
+
  .burger_icon {
   color: #fff;
  }
 
-.navbar-collapse {
-    height: 100vh;
+@media (max-width:991px) {
+  .navbar-collapse {
+   height: 100vh;
+   margin: auto;
+  }
 }
 
-.nav-item span {
- display: block;
- width: 100%;
- padding: 0 15px;
- text-align: center;
- font-size: 15px;
- font-weight: 400;
- letter-spacing: 3px;
+@media (max-width:767px) {
+ .pic img {
+  height: 100px;
+  width: 100px;
+  border-radius: 35%;
+  margin: 50px;
+ }
+}
+
+  @media (min-width:768px) and (max-width: 991px) {
+  .pic img {
+   height: 250px;
+   width: 250px;
+   border-radius: 35%;
+   margin: 50px;
+  }
+ }
+
+.social-links-sm {
  color: #fff;
+ }
+ 
+.social-links-sm i {
+ padding: 25px 10px;
+ }
+
+ @media (min-width:768px) and (max-width: 991px) {
+  .nav-item span {
+   font-size: 30px;
+
+  }
+
+.inline {
+ display: inline;
 }
 
-.nav-item a i {
- display: block;
- text-align: center;
- color: #fff;
-
-}
+ @media (min-width:768px) and (max-width: 991px) {
+ .nav-text {
+  font-size: 32px;
+  letter-spacing: 3px;
+ }
+ }

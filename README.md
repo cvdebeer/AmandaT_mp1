@@ -30,8 +30,18 @@ Another feature idea
 
 # H2 Technologies Used
 
-🔸 Favicon- https://www.quora.com/How-can-I-get-the-logo-on-title-bar (working code to get the icon into the tab bar at the top of the page)  and https://convertico.com/  - to convert my png to ico so that it is more compatible with all browsers
-🔸 Google fonts- Jura, Marck Script and Exo 2
+HTML ~ main Language used to structure the individual pages of the website.
+CSS ~ styling language used to format and visually build upon the accompanying HTML.
+Bootstrap Framework ~ Used as the core structuring layout building blocks of the website, ensuring mobile-frist design and responsive size display.
+AWS Cloud9 ~ Cloud9 was used as the IDE for this project.
+ ~ Used to commit to local repository and further push to Github Repo ensuring version controlling of the project build.
+Git ~ Installed on local device and integrated to PyCharm as a Plugin to enable version controlling.
+Github ~ Used to host the deployed website and repository of all previous versions of the build.
+Google Chrome Developer Tools ~ Used as the core test phase throughout the project build life, testing the responsiveness of elements and CSS visuals.
+ColourRules (Color Picker) ~ Application used to obtain hexadecimal/rgba/hsl values of colours.
+Some Imported Javascript & JQuery ~ For the Modal and Responsive Navbar expand & collapse functionality.
+Balsamiq ~ Used for the Creation of Wireframes.
+
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 JQuery 
@@ -68,3 +78,9 @@ The photos used in this site were obtained from ...
 Songbird for logo and icon - https://svgsilh.com/image/1295782.html
 # H3 Acknowledgements
 I received inspiration for this project from X
+
+
+🔸 Favicon- https://www.quora.com/How-can-I-get-the-logo-on-title-bar (working code to get the icon into the tab bar at the top of the page)  and https://convertico.com/  - to convert my png to ico so that it is more compatible with all browsers
+🔸 Google fonts- Jura, Marck Script and Exo 2
+🔸 Toggle button- https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color/42587673
+🔸 Cover full screen with navar - https://css-tricks.com/responsive-menu-concepts/ & https://stackoverflow.com/questions/46927448/bootstrap-full-screen-menu-on-all-devices
