@@ -84,3 +84,4 @@ I received inspiration for this project from X
 🔸 Google fonts- Jura, Marck Script and Exo 2
 🔸 Toggle button- https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color/42587673
 🔸 Cover full screen with navar - https://css-tricks.com/responsive-menu-concepts/ & https://stackoverflow.com/questions/46927448/bootstrap-full-screen-menu-on-all-devices
+https://github.com/wagerfield/parallax
