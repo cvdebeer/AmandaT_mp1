@@ -3,14 +3,14 @@ font-family: 'Jura', sans-serif;
 font-family: 'Exo 2', sans-serif;
 font-family: 'Marck Script', cursive;
 
- */
+
 * {
  background: #000 !important;
  color: #0f0 !important;
  outline: solid #f00 1px !important;
 }
 
- 
+  */
 
 body {
  margin: 0;
@@ -167,19 +167,27 @@ body {
 .about {}
 .jumbotron {}
 .cover {}
-.artist-info {}
-#her-words {}
-.atcarousel {
- max-width:80%;
-}
-/*
-.artist-info .card {
-text-align: center;
-margin-top:50%;
-margin-right :25%;
+.artist-info {
+
+  
 
 }
- /*
+#her-words { 
+ 
+}
+
+
+}
+
+ .artist-info .moving-text {
+
+text-align: center;
+padding-top: 60%;
+}
+
+/*
+
+
 .jumbotron {
   background-image:url('assets/images.cover.jpg') center center;
   height:300px;
