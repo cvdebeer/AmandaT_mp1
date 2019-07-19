@@ -163,6 +163,15 @@ body {
  }
 
  /* --------------------------------------------------------------About me */
+
+.about {}
+.jumbotron {}
+.cover {}
+.artist-info {}
+#her-words {}
+.atcarousel {
+ max-width:80%;
+}
 /*
 .artist-info .card {
 text-align: center;
