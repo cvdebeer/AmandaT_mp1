@@ -2,14 +2,16 @@
 font-family: 'Jura', sans-serif;
 font-family: 'Exo 2', sans-serif;
 font-family: 'Marck Script', cursive;
- 
- */
 
+ */
 * {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
+ background: #000 !important;
+ color: #0f0 !important;
+ outline: solid #f00 1px !important;
 }
+
+ 
+
 body {
  margin: 0;
  padding: 0;
@@ -80,40 +82,41 @@ body {
  background-color: #CC5500;
 }
 
- .navbar-toggler {
-  border: 1px solid rgb(255, 255, 255);
- }
- .navstyle {
-  margin-left: -65px;
- }
+.navbar-toggler {
+ border: 1px solid rgb(255, 255, 255);
+}
 
- .nav-item span {
-  display: block;
-  width: 100%;
-  padding: 0 15px;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 3px;
-  color: #fff;
- }
- 
-  .nav-item a i {
-  display: block;
-  text-align: center;
-  color: #fff;
+.navstyle {
+ margin-left: -65px;
+}
 
- }
+.nav-item span {
+ display: block;
+ width: 100%;
+ padding: 0 15px;
+ text-align: center;
+ font-size: 15px;
+ font-weight: 400;
+ letter-spacing: 3px;
+ color: #fff;
+}
 
- .burger_icon {
-  color: #fff;
- }
+.nav-item a i {
+ display: block;
+ text-align: center;
+ color: #fff;
+
+}
+
+.burger_icon {
+ color: #fff;
+}
 
 @media (max-width:991px) {
-  .navbar-collapse {
-   height: 100vh;
-   margin: auto;
-  }
+ .navbar-collapse {
+  height: 100vh;
+  margin: auto;
+ }
 }
 
 @media (max-width:767px) {
@@ -125,47 +128,49 @@ body {
  }
 }
 
-  @media (min-width:768px) and (max-width: 991px) {
-  .pic img {
-   height: 250px;
-   width: 250px;
-   border-radius: 35%;
-   margin: 50px;
-  }
+@media (min-width:768px) and (max-width: 991px) {
+ .pic img {
+  height: 250px;
+  width: 250px;
+  border-radius: 35%;
+  margin: 50px;
  }
+}
 
 .social-links-sm {
  color: #fff;
- }
- 
+}
+
 .social-links-sm i {
  padding: 25px 10px;
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+ .nav-item span {
+  font-size: 30px;
+
+ }
+
+ .inline {
+  display: inline;
  }
 
  @media (min-width:768px) and (max-width: 991px) {
-  .nav-item span {
-   font-size: 30px;
-
+  .nav-text {
+   font-size: 32px;
+   letter-spacing: 3px;
   }
-
-.inline {
- display: inline;
-}
-
- @media (min-width:768px) and (max-width: 991px) {
- .nav-text {
-  font-size: 32px;
-  letter-spacing: 3px;
  }
- }
- 
+
  /* --------------------------------------------------------------About me */
-
-
-.cover, .artist-info {
- padding:0;
-}
 /*
+.artist-info .card {
+text-align: center;
+margin-top:50%;
+margin-right :25%;
+
+}
+ /*
 .jumbotron {
   background-image:url('assets/images.cover.jpg') center center;
   height:300px;
@@ -173,8 +178,10 @@ body {
   background-size: cover;
   border-bottom:1px solid #ff6a00
 }
-.jumbotron .container {
+
+.jumbotron .container-fluid {
   position:relative;
   top:50px;
 }
+
 */
