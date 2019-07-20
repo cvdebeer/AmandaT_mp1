@@ -256,3 +256,14 @@ padding-top: 15px;
 iframe {
  padding: 15px;
 }
+
+/* -------------------------------------------------------------------------------------Events Section */
+
+.events {
+ padding-top: 15px;
+ text-align: center;
+}
+.events-heading {
+ background-color: #C8CC00;
+ color: #fff;
+}
