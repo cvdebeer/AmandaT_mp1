@@ -196,22 +196,22 @@ font-family: 'Exo 2', sans-serif;
 
  .artist-info .moving-text {
 
-padding: 15%;
+padding: 10%;
 }
-
+/*
 @media (max-width: 767px) {
  .artist-info .moving-text-box .moving-text {
-padding: 5%;
+padding: 5px;
 margin-top: 0;
 }
 }
-
+*/
 .moving-text-box {
  width: 80%;
  height: 20%;
- border-radius: 25% 0 25% 0;
+ border-radius: 50% 0 50% 0;
  background-color: rgba(0, 119, 204, .5);
- margin-top:10%;
+margin: 10px;
  
 }
 
@@ -223,7 +223,7 @@ margin-top: 0;
 /* ------------------------------------------------------------------------------Music Section */
 
 .music {
- padding-top: 25px;
+padding-top: 15px;
  text-align: center;
 }
 
