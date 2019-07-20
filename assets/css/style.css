@@ -1,6 +1,12 @@
 /*-----------------------------------------------------------Fonts
+h1, h2, h3, h4, h5, h6 {
 font-family: 'Jura', sans-serif;
+}
+
+p {
 font-family: 'Exo 2', sans-serif;
+
+}
 font-family: 'Marck Script', cursive;
 
 
@@ -17,7 +23,14 @@ body {
  padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Jura', sans-serif;
+}
 
+p {
+font-family: 'Exo 2', sans-serif;
+
+}
 /* ------------------------------------------------------------Header */
 
 .sm-links {
@@ -164,7 +177,9 @@ body {
 
  /* --------------------------------------------------------------About me */
 
-.about {}
+.about {
+ padding-top: 15px;
+}
 .jumbotron {}
 .cover {}
 .artist-info {
@@ -203,20 +218,30 @@ margin-top: 0;
 .moving-text-box .moving-text {
  text-align: center;
 }
-/*
 
 
-.jumbotron {
-  background-image:url('assets/images.cover.jpg') center center;
-  height:300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-bottom:1px solid #ff6a00
+/* ------------------------------------------------------------------------------Music Section */
+
+.music {
+ padding-top: 25px;
+ text-align: center;
 }
 
-.jumbotron .container-fluid {
-  position:relative;
-  top:50px;
+.music-heading {
+ background-color :#00538E;
+ color: #fff;
+ 
 }
 
-*/
+.music-heading h2 {
+ color: #CC5500;
+}
+.mh-rule {
+ width: 10%;
+ height: 2px;
+ background-color: #cc5500;
+}
+
+iframe {
+ padding: 15px;
+}
