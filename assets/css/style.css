@@ -182,9 +182,14 @@ body {
  .artist-info .moving-text {
 
 text-align: center;
-padding-top: 60%;
+padding: 50% 15%;
 }
 
+@media (max-width: 767px) {
+ .artist-info .moving-text {
+padding: 5%;
+}
+}
 /*
 
 
