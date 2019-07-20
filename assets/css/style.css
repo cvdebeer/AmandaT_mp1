@@ -181,14 +181,27 @@ body {
 
  .artist-info .moving-text {
 
-text-align: center;
-padding: 50% 15%;
+padding: 15%;
 }
 
 @media (max-width: 767px) {
- .artist-info .moving-text {
+ .artist-info .moving-text-box .moving-text {
 padding: 5%;
+margin-top: 0;
 }
+}
+
+.moving-text-box {
+ width: 80%;
+ height: 20%;
+ border-radius: 25% 0 25% 0;
+ background-color: rgba(0, 119, 204, .5);
+ margin-top:10%;
+ 
+}
+
+.moving-text-box .moving-text {
+ text-align: center;
 }
 /*
 
