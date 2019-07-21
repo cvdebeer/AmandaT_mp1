@@ -17,7 +17,7 @@
 <body>
     <header>
         <!-- Main page header-->
-        <div class="container fixed-top heading">
+        <div class="container-fluid fixed-top heading">
             <div class="row at-head">
                 <div class="col col-md-2 d-none d-sm-none d-md-block sm-links">
                     <i class="fab fa-facebook"></i>
@@ -165,13 +165,14 @@
 
             </section>
             <section class="music">
-
                 <div class="music-heading">
                     <h1>My Music</h1>
                     <p>I perform a mix of my own original music and also do covers of other artists</p>
                 </div>
                 <hr class="mh-rule">
-                <h2> My original music</h2>
+                <div class="original-heading">
+                    <h2>My original music</h2>
+                </div>
                 <hr class="mh-rule">
 
                 <div class="container original-music">
@@ -209,8 +210,11 @@
                     </div>
                 </div>
 
+
                 <hr class="mh-rule">
-                <h2>A selection of Cover Songs</h2>
+                <div class="cover-songs">
+                    <h2>A selection of Cover Songs</h2>
+                </div>
                 <hr class="mh-rule">
 
                 <div class="container cover-music">
@@ -220,18 +224,18 @@
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/cNqKgIPdHII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
-                         <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <div class="embed-responsive embed-responsive-16by9">
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZFod8VkOwt4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
-                         <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <div class="embed-responsive embed-responsive-16by9">
-                              <iframe width="560" height="315" src="https://www.youtube.com/embed/xa7bCPRVDrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/xa7bCPRVDrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
-
+                </div>
 
             </section>
             <section class="events">
@@ -240,32 +244,34 @@
                     <p>Come and watch me live</p>
                 </div>
                 <hr class="mh-rule">
-                <table class="table table-hover table-dark">
+                <table class="table table-hover table-events">
 
-  <tbody>
-    <tr>
-      <th scope="row">31 August 2019</th>
-      <td><p>AJ's Pub and Bistro</p>
-      <p>Northriding</p>
-      </td>
-      <td><button class="book"><a href"#">Book Tickets</a></button></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">14 September 2019</th>
-      <td><p>Greenfields Cafe</p>
-      <p>Randburg</p></td>
-      <td><button class="book"><a href"#">Book Tickets</a></button</td>
-      
-    </tr>
-    <tr>
-      <th scope="row">28 September 2019</th>
-      <td><p>Tings and Times</p>
-      <p>Santon Square</p></td>
-      <td><button class="book"><a href"#">Book Tickets</a></button</td>
-    </tr>
-  </tbody>
-</table>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="date">31 August 2019</th>
+                            <td>
+                                <p class="venue">AJ's Pub and Bistro</p>
+                                <p>Northriding</p>
+                            </td>
+                            <td><button class="book"><a href"#">Book Tickets</a></button></td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row" class="date">14 September 2019</th>
+                            <td>
+                                <p class="venue">Greenfields Cafe</p>
+                                <p>Randburg</p>
+                            </td>
+                            <td><button class="book"><a href"#">Book Tickets</a></button</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="date">28 September 2019</th>
+                             <td><p class="venue">Tings and Times</p>
+                                  <p>Santon Square</p></td>
+                         <td><button class="book"><a href"#">Book Tickets</a></button</td>
+                        </tr>
+                      </tbody>
+                    </table>
                 <hr class="mh-rule">
             </section>
     </main>

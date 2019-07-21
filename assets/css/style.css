@@ -38,7 +38,7 @@ font-family: 'Exo 2', sans-serif;
  font-size: x-large;
  color: #cc5500;
  margin-top: 10px;
-
+margin-left: 15px;
 }
 
 .title {
@@ -62,7 +62,7 @@ font-family: 'Exo 2', sans-serif;
 .in-touch {
  padding: 0;
  text-align: right;
-
+margin-right: -15px;
 }
 
 .go-btn {
@@ -90,9 +90,14 @@ font-family: 'Exo 2', sans-serif;
  padding: 0;
 margin-top: -50px;
  position: fixed;
- background-color: #fff;
+ background-color:  #CC5500;
  z-index: 100;
  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ .nav-top{
+  margin-top: -65px;
 }
 
 .nav-text {
@@ -187,7 +192,7 @@ margin-top: -50px;
 
 .about {
 
- padding-top: 10px;
+
 }
 .jumbotron {
  margin-top: 120px;
@@ -244,13 +249,17 @@ padding-top: 15px;
  
 }
 
-.music-heading h2 {
- color: #CC5500;
+.original-heading {
+ color: #00538E;
+}
+
+.cover-songs {
+ color: #00538E;
 }
 .mh-rule {
  width: 10%;
  height: 2px;
- background-color: #cc5500;
+ background-color: #CC5500;
 }
 
 iframe {
@@ -266,4 +275,23 @@ iframe {
 .events-heading {
  background-color: #C8CC00;
  color: #fff;
+}
+
+.table-events {
+ background-color: rgba(126,0,204,0.5);
+}
+
+.table-events p {
+ color:#C8CC00;
+}
+
+.venue {
+ font-weight: bold;
+ font-size: 20px;
+ text-transform: uppercase;
+}
+
+.date {
+ color: #fff;
+ margin: auto;
 }
