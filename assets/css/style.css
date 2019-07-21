@@ -281,6 +281,7 @@ iframe {
 
 .table-events {
  background-color: rgba(126,0,204,0.5);
+ vertical-align: middle;
 }
 
 .table-events p {
@@ -291,9 +292,25 @@ iframe {
  font-weight: bold;
  font-size: 20px;
  text-transform: uppercase;
+ margin-bottom: 2px;
 }
 
-.date {
+
+.table .date {
  color: #fff;
- margin: auto;
+}
+
+
+.table td, .table th  {
+vertical-align: middle;
+}
+
+.table button {
+
+ color: #fff;
+ 
+ border: 2px solid #C8CC00;
+  font-family: 'Exo 2', sans-serif;
+  font-weight : 600;
+ text-transform:uppercase;
 }
