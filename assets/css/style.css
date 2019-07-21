@@ -55,7 +55,7 @@ p {
  padding: 0;
  font-family: 'Jura', sans-serif;
  font-weight: 700;
- color: #0300CC;
+ color: #00B4CC;
  text-align: center;
 }
 
@@ -146,7 +146,7 @@ p {
 .nav-link .contact-btn {
  display: block;
  width: 100%;
- padding: 0 15px;
+ padding: 0 7px;
  text-align: center;
  font-size: 15px;
  font-weight: 400;
@@ -154,6 +154,8 @@ p {
  color: #fff;
  text-transform: uppercase;
 }
+
+
 
 .burger_icon {
  color: #fff;
@@ -218,6 +220,7 @@ p {
  .about {}
  .jumbotron {
   margin-top: 120px;
+
  }
  .cover {}
  .artist-info {}
@@ -237,7 +240,7 @@ p {
  width: 80%;
  height: 20%;
  border-radius: 50% 0 50% 0;
- background-color: rgba(0, 119, 204, .5);
+ background-color: rgba(204, 152, 20, .8);
  margin: 10px;
 
 }
@@ -251,6 +254,10 @@ p {
  height: 2px;
  background-color: #CC5500;
 }
+
+
+
+
 /* ------------------------------------------------------------------------------Music Section */
 
 .music {
@@ -259,17 +266,17 @@ p {
 }
 
 .music-heading {
- background-color: #00538E;
+ background-color: #0039CC;
  color: #fff;
-
+padding: 10px 0;
 }
 
 .original-heading {
- color: #00538E;
+ color: #0039CC;
 }
 
 .cover-songs {
- color: #00538E;
+ color: #0039CC;
 }
 
 
@@ -283,11 +290,13 @@ iframe {
 .events {
  padding-top: 15px;
  text-align: center;
+ 
 }
 
 .events-heading {
  background-color: #C8CC00;
  color: #fff;
+ padding: 10px 0;
 }
 
 .table-events {
@@ -322,6 +331,41 @@ iframe {
  font-family: 'Exo 2', sans-serif;
  font-weight: 600;
  text-transform: uppercase;
+}
+
+ 
+ table {
+  max-width: 80%;
+  margin: auto;
+ }
+
+@media (max-width: 576px) {
+.table td, .table th, .venue, .table button {
+  font-size: 80%;
+ }
+}
+
+/* ------------------------------------------------------------------News */
+
+.news {
+ text-align: center;
+ 
+}
+
+.news-heading {
+ background-color: #B72512;
+ color: #fff;
+ padding: 10px 0;
+ margin-bottom: 25px;
+}
+
+.card-body {
+ color: #B72512;
+}
+
+.btn-red {
+ color: #B72512 ;
+ border-color: #B72512 ;
 }
 
 /* ------------------------------------------------------------------Contact Modal */
@@ -360,6 +404,10 @@ padding-bottom:0px;
 .modal-full .modal-content {
     min-height: 100vh;
 }
+form {
+ max-width: 80%;
+ margin: auto;
+}
 }
 
 .modal-picture {
@@ -370,4 +418,8 @@ padding-bottom:0px;
  height: 250px;
  width: auto;
  border-radius: 30px;
+}
+
+.modal-footer {
+ margin-bottom:25px;
 }
