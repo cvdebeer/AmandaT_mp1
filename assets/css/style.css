@@ -143,6 +143,18 @@ p {
 
 }
 
+.nav-link .contact-btn {
+ display: block;
+ width: 100%;
+ padding: 0 15px;
+ text-align: center;
+ font-size: 15px;
+ font-weight: 400;
+ letter-spacing: 3px;
+ color: #fff;
+ text-transform: uppercase;
+}
+
 .burger_icon {
  color: #fff;
 }
@@ -214,14 +226,7 @@ p {
  padding: 10%;
 }
 
-/*
-@media (max-width: 767px) {
- .artist-info .moving-text-box .moving-text {
-padding: 5px;
-margin-top: 0;
-}
-}
-*/
+
 
 .moving-text-box {
  width: 80%;
@@ -339,4 +344,13 @@ padding-bottom:0px;
  background-color: #CC5500;
  color: #fff;
 }
+
+/*
+@media (max-width:991px) {
+ .go-btn {
+  height: 100vh;
+  margin: auto;
+ }
+}
+*/
 #getintouch

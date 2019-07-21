@@ -40,7 +40,7 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="burger_icon"><i class="fas fa-bars" ></i></span>
   </button>
-  <!--
+                <!--
 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
         </button> 
         want to use this for my small screens -->
@@ -58,7 +58,7 @@
                                 <a class="nav-link" href="#"><i class="far fa-calendar-alt" aria-hidden="true"></i><span>Events</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-phone" aria-hidden="true"></i><span>Contact</span></a>
+                                <a class="nav-link" href="#"><i class="fas fa-phone" aria-hidden="true"></i><span><button type="button" class="btn contact-btn" data-toggle="modal" data-target="#getintouch">Contact</button></span></a>
                             </li>
                         </ul>
                     </div>
@@ -287,50 +287,52 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                        <h5 class="modal-title" id="title">Amanda T.</h5>
-                       
-        </div>
-        
-         <hr class="mh-rule">
-        <div class="modal-body">
+                <h5 class="modal-title" id="title">Amanda T.</h5>
+            </div>
 
-            <form>
-                <h3>Your Details</h3>
-                <div class="form-group">
+            <hr class="mh-rule">
+            <div class="modal-body">
 
-                    <input type="text" class="form-control" id="fullname" placeholder="Full Name">
-                </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" id="email" placeholder="Email">
-                </div>
-                <div class="form-group">
-
-                    <input type="text" class="form-control" id="telephone" placeholder="Telephone Number">
-                </div>
-                <div class="form-group">
-                    <h4>I am interested in:</h4>
-                    
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="hireme">
-                        <label class="form-check-label" for="hireme">Hiring you for a function</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="more-info">
-                        <label class="form-check-label" for="more-info">Info on upcomint events</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="collaborate">
-                        <label class="form-check-label" for="collaborate">Collaborating with you on a project</label>
-                    </div>
-
+                <form>
+                    <h3>Your Details</h3>
                     <div class="form-group">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Project Details</textarea> </div>
-            </form>
+
+                        <input type="text" class="form-control" id="fullname" placeholder="Full Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="telephone" placeholder="Telephone Number">
+                    </div>
+                    <div class="form-group">
+                        <h4>I am interested in:</h4>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="hireme">
+                            <label class="form-check-label" for="hireme">Hiring you for a function</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="more-info">
+                            <label class="form-check-label" for="more-info">Info on upcomint events</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="collaborate">
+                            <label class="form-check-label" for="collaborate">Collaborating with you on a project</label>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Project Details</textarea> 
+                        </div>
+                    </div>
+                </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-send">Send</button>
-            </div>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-send">Send</button>
+
+        </div>
         </div>
         </div>
         </div>
