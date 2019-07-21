@@ -23,14 +23,20 @@ body {
  padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-font-family: 'Jura', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family: 'Jura', sans-serif;
 }
 
 p {
-font-family: 'Exo 2', sans-serif;
+ font-family: 'Exo 2', sans-serif;
 
 }
+
 /* ------------------------------------------------------------Header */
 
 .sm-links {
@@ -38,7 +44,7 @@ font-family: 'Exo 2', sans-serif;
  font-size: x-large;
  color: #cc5500;
  margin-top: 10px;
-margin-left: 15px;
+ margin-left: 15px;
 }
 
 .title {
@@ -60,9 +66,10 @@ margin-left: 15px;
 }
 
 .in-touch {
- padding: 0;
+ padding: 5px;
  text-align: right;
-margin-right: -15px;
+ margin-right: -15px;
+
 }
 
 .go-btn {
@@ -70,7 +77,7 @@ margin-right: -15px;
  background-color: #CC5500;
  border-color: #CC5500;
  font-family: 'Exo 2', sans-serif;
- margin-top: 10px;
+ margin-top: 5px;
  margin-right: 40px;
 
 }
@@ -81,25 +88,25 @@ margin-right: -15px;
 
 
 /* -----------------------------------------------------------Navbar */
+
 .heading {
  background-color: #fff;
  z-index: 99
- 
 }
- 
-.nav-top{
+
+.nav-top {
  padding: 0;
-margin-top: -50px;
+ margin-top: -50px;
  position: fixed;
- background-color:  #CC5500;
+ background-color: #CC5500;
  z-index: 100;
- }
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
- .nav-top{
+ .nav-top {
   margin-top: -65px;
-  
-}
+
+ }
 }
 
 .nav-text {
@@ -191,31 +198,22 @@ margin-top: -50px;
  }
 
  /* --------------------------------------------------------------About me */
-
-.about {
-
-
-}
-.jumbotron {
- margin-top: 120px;
-}
-.cover {}
-.artist-info {
-
-  
-
-}
-#her-words { 
- 
-}
+ .about {}
+ .jumbotron {
+  margin-top: 120px;
+ }
+ .cover {}
+ .artist-info {}
+ #her-words {}
 
 
 }
 
- .artist-info .moving-text {
+.artist-info .moving-text {
 
-padding: 10%;
+ padding: 10%;
 }
+
 /*
 @media (max-width: 767px) {
  .artist-info .moving-text-box .moving-text {
@@ -224,31 +222,36 @@ margin-top: 0;
 }
 }
 */
+
 .moving-text-box {
  width: 80%;
  height: 20%;
  border-radius: 50% 0 50% 0;
  background-color: rgba(0, 119, 204, .5);
-margin: 10px;
- 
+ margin: 10px;
+
 }
 
 .moving-text-box .moving-text {
  text-align: center;
 }
 
-
+.mh-rule {
+ width: 10%;
+ height: 2px;
+ background-color: #CC5500;
+}
 /* ------------------------------------------------------------------------------Music Section */
 
 .music {
-padding-top: 15px;
+ padding-top: 15px;
  text-align: center;
 }
 
 .music-heading {
- background-color :#00538E;
+ background-color: #00538E;
  color: #fff;
- 
+
 }
 
 .original-heading {
@@ -258,11 +261,8 @@ padding-top: 15px;
 .cover-songs {
  color: #00538E;
 }
-.mh-rule {
- width: 10%;
- height: 2px;
- background-color: #CC5500;
-}
+
+
 
 iframe {
  padding: 15px;
@@ -274,18 +274,19 @@ iframe {
  padding-top: 15px;
  text-align: center;
 }
+
 .events-heading {
  background-color: #C8CC00;
  color: #fff;
 }
 
 .table-events {
- background-color: rgba(126,0,204,0.5);
+ background-color: rgba(126, 0, 204, 0.8);
  vertical-align: middle;
 }
 
 .table-events p {
- color:#C8CC00;
+ color: #C8CC00;
 }
 
 .venue {
@@ -300,17 +301,42 @@ iframe {
  color: #fff;
 }
 
-
-.table td, .table th  {
-vertical-align: middle;
+.table td,
+.table th {
+ vertical-align: middle;
 }
 
 .table button {
-
  color: #fff;
- 
  border: 2px solid #C8CC00;
-  font-family: 'Exo 2', sans-serif;
-  font-weight : 600;
- text-transform:uppercase;
+ font-family: 'Exo 2', sans-serif;
+ font-weight: 600;
+ text-transform: uppercase;
 }
+
+/* ------------------------------------------------------------------Contact Modal */
+.modal-content {
+ background-color: #12A4B7;
+ color: #fff;
+}
+
+.modal-header {
+ margin:auto;
+ border: none;
+padding-bottom:0px;
+}
+
+#title {
+ padding: 0;
+ font-family: 'Jura', sans-serif;
+ font-weight: 700;
+ font-size: 32px;
+ color: #0300CC;
+ margin:auto;
+}
+
+.btn-send {
+ background-color: #CC5500;
+ color: #fff;
+}
+#getintouch
