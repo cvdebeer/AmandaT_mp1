@@ -198,6 +198,11 @@ p {
 
  }
 
+@media (min-width:768px) and (max-width: 991px) {
+ .nav-link .contact-btn {
+  font-size: 30px;
+}
+ }
  .inline {
   display: inline;
  }
@@ -345,12 +350,24 @@ padding-bottom:0px;
  color: #fff;
 }
 
-/*
+
 @media (max-width:991px) {
- .go-btn {
-  height: 100vh;
-  margin: auto;
- }
+ .modal-full {
+    min-width: 100%;
+    margin: 0;
 }
-*/
-#getintouch
+
+.modal-full .modal-content {
+    min-height: 100vh;
+}
+}
+
+.modal-picture {
+ margin: auto;
+ margin-bottom: 100px;
+}
+.modal-picture img {
+ height: 250px;
+ width: auto;
+ border-radius: 30px;
+}
