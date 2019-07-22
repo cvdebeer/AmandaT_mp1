@@ -215,6 +215,12 @@ p {
    letter-spacing: 3px;
   }
  }
+  .nav:after {
+    content:"";
+    clear:both;
+    display:block;
+    }
+
 
  /* --------------------------------------------------------------About me */
  .about {}
@@ -334,7 +340,7 @@ iframe {
 }
 
  
- table {
+table {
   max-width: 80%;
   margin: auto;
  }
@@ -342,6 +348,10 @@ iframe {
 @media (max-width: 576px) {
 .table td, .table th, .venue, .table button {
   font-size: 80%;
+ }
+ .table button {
+  border: 1px solid #C8CC00 ;
+  font-weight: 400;
  }
 }
 

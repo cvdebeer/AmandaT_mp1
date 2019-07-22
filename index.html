@@ -49,16 +49,16 @@
                     <div class="nav-text uppercase">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#"><i class="fas fa-home" aria-hidden="true"></i><span>Home</span><span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#home"><i class="fas fa-home" aria-hidden="true"></i><span>Home</span><span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-music" aria-hidden="true"></i><span>Music</span></a>
+                                <a class="nav-link" href="#music"><i class="fas fa-music" aria-hidden="true"></i><span>Music</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="far fa-calendar-alt" aria-hidden="true"></i><span>Events</span></a>
+                                <a class="nav-link" href="#events"><i class="far fa-calendar-alt" aria-hidden="true"></i><span>Events</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="far fa-newspaper" aria-hidden="true"></i><span>News</span></a>
+                                <a class="nav-link" href="#news"><i class="far fa-newspaper" aria-hidden="true"></i><span>News</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><i class="fas fa-phone" aria-hidden="true"></i><span><button type="button" class="btn contact-btn" data-toggle="modal" data-target="#getintouch">Contact</button></span></a>
@@ -79,7 +79,8 @@
 
     <main>
         <div class="jumbotron">
-            <section class="about">
+            <section class="about" id="home">
+                <span></span>
                 <div class="container-fluid cover">
                     <div class="row no-gutters align-items-center">
                         <div class="col-12 col-md-8 ">
@@ -169,7 +170,7 @@
 
 
             </section>
-            <section class="music">
+            <section class="music" id="music">
 
                 <div class="music-heading">
                     <h2>My Music</h2>
@@ -245,7 +246,7 @@
                 </div>
 
             </section>
-            <section class="events">
+            <section class="events" id="events">
                 <div class="events-heading">
                     <h2>My Events Page</h2>
                     <p>Come and watch me live</p>
@@ -281,11 +282,12 @@
                          <td><button type="button" class="btn btn-outline-dark"><a href"#">Book Tickets</a></button</td>
                         </tr>
                       </tbody>
-                      </div>
+                     
                     </table>
+                     </div>
                 <hr class="mh-rule">
             </section>
-            <section class="news">
+            <section class="news" id="news">
                 <div class="news-heading">
                     <h2>Latest News</h2>
                     <p>Check out what I've been up to lately</p>
@@ -307,6 +309,8 @@
                             </div>
                 
                         </div>
+                       </div>
+                       </div>
             </section>
             
     <!-- Contact Modal  -->   
