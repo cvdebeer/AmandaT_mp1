@@ -434,10 +434,13 @@ form {
  margin-bottom:25px;
 }
 /*------------------------------------------------------------Footer */
+
+
 #sticky-footer {
   flex-shrink: none;
   background-color: #cc5500;
   color: #fff;
+  margin-top: 25px;
 }
 
 #sticky-footer span {

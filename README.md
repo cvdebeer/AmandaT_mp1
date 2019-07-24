@@ -86,3 +86,4 @@ I received inspiration for this project from X
 🔸 Cover full screen with navar - https://css-tricks.com/responsive-menu-concepts/ & https://stackoverflow.com/questions/46927448/bootstrap-full-screen-menu-on-all-devices
 https://github.com/wagerfield/parallax
 https://stackoverflow.com/questions/14203279/bootstrap-close-responsive-menu-on-click
+https://startbootstrap.com/snippets/sticky-footer-flexbox/ - sticky footer
