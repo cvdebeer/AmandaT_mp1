@@ -76,14 +76,18 @@ The text for section Y was copied from the Wikipedia article Z
 # H3 Media
 The photos used in this site were obtained from ...
 Songbird for logo and icon - https://svgsilh.com/image/1295782.html
+https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/2_Kay_K235_acoustic-guitar.jpg/1024px-2_Kay_K235_acoustic-guitar.jpg
 # H3 Acknowledgements
 I received inspiration for this project from X
 
 
 🔸 Favicon- https://www.quora.com/How-can-I-get-the-logo-on-title-bar (working code to get the icon into the tab bar at the top of the page)  and https://convertico.com/  - to convert my png to ico so that it is more compatible with all browsers
-🔸 Google fonts- Jura, Marck Script and Exo 2
+🔸 Google fonts- Jura, Marck Script and Exo 2 Marck+Script|Oswald|Righteous!!
 🔸 Toggle button- https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color/42587673
 🔸 Cover full screen with navar - https://css-tricks.com/responsive-menu-concepts/ & https://stackoverflow.com/questions/46927448/bootstrap-full-screen-menu-on-all-devices
 https://github.com/wagerfield/parallax
 https://stackoverflow.com/questions/14203279/bootstrap-close-responsive-menu-on-click
 https://startbootstrap.com/snippets/sticky-footer-flexbox/ - sticky footer
+animated hover -https://github.com/IanLunn/Hover/blob/master/css/hover.css
+
+https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image

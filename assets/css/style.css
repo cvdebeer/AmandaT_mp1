@@ -21,6 +21,7 @@ font-family: 'Marck Script', cursive;
 body {
  margin-top: 100px;
  padding: 0;
+
 }
 
 h1,
@@ -29,12 +30,11 @@ h3,
 h4,
 h5,
 h6 {
- font-family: 'Jura', sans-serif;
+ font-family: 'Righteous', cursive;
 }
 
 p {
- font-family: 'Exo 2', sans-serif;
-
+ font-family: 'Oswald', sans-serif;
 }
 
 /* ------------------------------------------------------------Header */
@@ -47,14 +47,18 @@ p {
  margin-left: 15px;
 }
 
+.sm-links:hover {
+ color: #00B4CC;
+}
+
 .title {
  text-align: center;
 }
 
-.title h1 {
+.title .amanda {
  padding: 0;
- font-family: 'Jura', sans-serif;
- font-weight: 700;
+font-family: 'Righteous', cursive;
+ font-weight: 600;
  color: #00B4CC;
  text-align: center;
 }
@@ -71,6 +75,50 @@ p {
  margin-right: -15px;
 
 }
+
+
+/* Sweep To Right */
+ .in-touch .hvr-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #00B4CC;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
 
 .go-btn {
  color: #fff;
@@ -101,14 +149,14 @@ p {
  background-color: #CC5500;
  z-index: 100;
 }
-
+/*
 @media (min-width: 768px) and (max-width: 991px) {
  .nav-top {
-  margin-top: -65px;
+  margin-top: -45px;
 
  }
 }
-
+*/
 .nav-text {
  margin: auto;
  padding-left: 15px;
@@ -117,6 +165,9 @@ p {
  background-color: #CC5500;
 }
 
+.nav-text .hover-home a:hover {
+ color: #00B4CC;
+}
 .navbar-toggler {
  border: 1px solid rgb(255, 255, 255);
 }
@@ -215,29 +266,25 @@ p {
    letter-spacing: 3px;
   }
  }
-  .nav:after {
-    content:"";
-    clear:both;
-    display:block;
-    }
 
 
  /* --------------------------------------------------------------About me */
- .about {}
- .jumbotron {
-  margin-top: 120px;
-
+.about {
+   
+  }
  }
+
  .cover {}
- .artist-info {}
+ .artist-info {
+  background-color: rgba(0,0,0,0);
+ }
  #her-words {}
 
 
 }
 
 .artist-info .moving-text {
-
- padding: 10%;
+ padding: 10px;
 }
 
 
@@ -248,6 +295,7 @@ p {
  border-radius: 50% 0 50% 0;
  background-color: rgba(204, 152, 20, .8);
  margin: 10px;
+ padding: 20px;10px;
 
 }
 
@@ -266,6 +314,17 @@ p {
 
 /* ------------------------------------------------------------------------------Music Section */
 
+
+
+
+#music {
+background-image: url('../images/acoustic-guitar.jpg');
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: auto:
+
+}
 .music {
  padding-top: 15px;
  text-align: center;
@@ -280,7 +339,9 @@ padding: 10px 0;
 .original-heading {
  color: #0039CC;
 }
-
+.og {
+ background-color: #fff;
+}
 .cover-songs {
  color: #0039CC;
 }
