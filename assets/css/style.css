@@ -303,8 +303,7 @@ p {
 
 @media (min-width: 1200px) {
 .cover img {
- 
- height:600px;
+  height:600px;
 }
 }
 
