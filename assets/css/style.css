@@ -288,37 +288,23 @@ p {
   background-size: cover;
   padding-bottom: 15px;
   background-color: #0039CC;
-
  }
- 
 .cover {
  width: 100%;
  height: auto;
  padding: 1% 0;
 }
 .cover img {
- 
  height:400px;
 }
-
 @media (min-width: 1200px) {
 .cover img {
   height:600px;
 }
 }
-
-
-#her-words {}
-
-
-}
-
 .artist-info .moving-text {
  padding: 10px;
 }
-
-
-
 .moving-text-box {
  width: 80%;
  height: 20%;
@@ -326,15 +312,11 @@ p {
  background-color: rgba(0, 119, 204, .9);
  margin: 10px;
  padding: 20px;
-
-
 }
-
 .moving-text-box .moving-text {
  text-align: center;
  color: #fff;
 }
-
 .mh-rule {
  width: 10%;
  height: 2px;
@@ -357,7 +339,6 @@ p {
 
 
 .music {
-
  padding-top: 15px;
  text-align: center;
 }
@@ -375,6 +356,7 @@ p {
 .og {
  background-color: rgba(89,0,204,0.5);
 }
+/* --------------------------------------------------------------------------------Video */
 
 #player iframe {
  border-color: rgba(37, 184, 95,0.8);
@@ -384,14 +366,30 @@ p {
  border-style: double;
  padding: 5px;
 }
+
+/* ----------------------------------------------------------------------------------Audio */
+.cover-music {
+ text-align: center;
+}
+.cover-music .card {
+ color: #24B75E;
+ background-color: rgba(89,0,204,0.5) ;
+}
+.cover-music .card-title {
+ color: #24B75E;
+ }
+ 
 .cover-songs {
  color: #24B75E;
 }
+audio::-webkit-media-controls-panel {
+ background-color:#24B75E;
+}
 
-
-
-iframe {
- padding: 15px;
+.album_cover img {
+ height: 90%;
+ width: 90%;
+ border-radius: 25%;
 }
 
 /* -------------------------------------------------------------------------------------Events Section */

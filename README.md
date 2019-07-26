@@ -41,6 +41,8 @@ Google Chrome Developer Tools ~ Used as the core test phase throughout the proje
 ColourRules (Color Picker) ~ Application used to obtain hexadecimal/rgba/hsl values of colours.
 Some Imported Javascript & JQuery ~ For the Modal and Responsive Navbar expand & collapse functionality.
 Balsamiq ~ Used for the Creation of Wireframes.
+Pix-resiser ~ to make images smaller
+Any Video converter ~ to change video into audio files
 
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
@@ -77,6 +79,9 @@ The text for section Y was copied from the Wikipedia article Z
 The photos used in this site were obtained from ...
 Songbird for logo and icon - https://svgsilh.com/image/1295782.html
 https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/2_Kay_K235_acoustic-guitar.jpg/1024px-2_Kay_K235_acoustic-guitar.jpg
+https://upload.wikimedia.org/wikipedia/en/4/47/Alanis_Morissette_-_Jagged_Little_Pill.jpg
+https://upload.wikimedia.org/wikipedia/en/b/b6/City_of_angels_%28album_cover%29.jpg
+https://upload.wikimedia.org/wikipedia/en/8/8c/Come_Together-Something_%28single_cover%29.jpg
 # H3 Acknowledgements
 I received inspiration for this project from X
 
@@ -92,3 +97,4 @@ animated hover -https://github.com/IanLunn/Hover/blob/master/css/hover.css
 
 https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image
 https://pxhere.com/en/photo/720062 - background-image
+https://stackoverflow.com/questions/4126708/is-it-possible-to-style-html5-audio-tag 
