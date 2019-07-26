@@ -376,6 +376,14 @@ p {
  background-color: rgba(89,0,204,0.5);
 }
 
+#player iframe {
+ border-color: rgba(37, 184, 95,0.8);
+ border-radius: 25%;
+ border-width: 3px;
+ margin: 15px;
+ border-style: double;
+ padding: 5px;
+}
 .cover-songs {
  color: #24B75E;
 }
@@ -389,7 +397,7 @@ iframe {
 /* -------------------------------------------------------------------------------------Events Section */
 
 .events {
-
+padding:0;
  text-align: center;
  background-image: url('../images/blue-guitar.png');
  background-attachment: fixed;
