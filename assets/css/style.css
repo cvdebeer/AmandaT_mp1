@@ -369,16 +369,24 @@ p {
 
 /* ----------------------------------------------------------------------------------Audio */
 .cover-music {
- text-align: center;
+ margin:0;
 }
-.cover-music .card {
+.cover-music .audio-box {
+display: inline;
+}
+
+.cover-music .audio-box {
  color: #24B75E;
  background-color: rgba(89,0,204,0.5) ;
 }
-.cover-music .card-title {
+.cover-music .audio-box {
  color: #24B75E;
  }
- 
+ @media (min-width: 768px) {
+ .cover-music audio {
+ width:90%;
+}
+}
 .cover-songs {
  color: #24B75E;
 }
@@ -389,7 +397,7 @@ audio::-webkit-media-controls-panel {
 .album_cover img {
  height: 90%;
  width: 90%;
- border-radius: 25%;
+ border-radius: 50%;
 }
 
 /* -------------------------------------------------------------------------------------Events Section */
