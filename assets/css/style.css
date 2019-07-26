@@ -288,29 +288,26 @@ p {
   background-size: cover;
   padding-bottom: 15px;
   background-color: #0039CC;
+
  }
  
-
-.cover img {
+.cover {
  width: 100%;
+ height: auto;
+ padding: 1% 0;
+}
+.cover img {
+ 
  height:400px;
 }
 
- @media (min-width: 992) {
-  .cover img {
+@media (min-width: 1200px) {
+.cover img {
  
- height:auto;
-  }
-  .about {
-  background-image: url('../images/fence-guitar-lg.png');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 15px;
- }
+ height:600px;
+}
 }
 
- }
 
 #her-words {}
 
@@ -357,8 +354,8 @@ p {
  background-size: cover;
  text-align: center;
  padding-bottom: 15px;
-
 }
+
 
 .music {
 
