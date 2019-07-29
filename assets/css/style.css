@@ -356,8 +356,10 @@ p {
 .og {
  background-color: rgba(89,0,204,0.5);
 }
-/* --------------------------------------------------------------------------------Video */
+/* --------------------------------------------------------------------------------Video flip*/
 
+
+/*----------------------------------------------------------------------------------Video */
 #player iframe {
  border-color: rgba(37, 184, 95,0.8);
  border-radius: 25%;
@@ -371,15 +373,15 @@ p {
 .cover-music {
  margin:0;
 }
-
-.cover-music .audio-box {
- color: #24B75E;
- background-color: rgba(89,0,204,0) ;
+.audio-box {
+  margin-bottom: 25px;
 }
 .cover-music .audio-box {
  color: #24B75E;
- margin-bottom: 25px;
- }
+ background-color: rgba(89,0,204,0) ;
+
+}
+
  .audio-box-body {
   background-color: rgba(89,0,204,0.5) ;
   border-radius: 15%;
@@ -389,7 +391,8 @@ p {
  .cover-music audio {
  width:90%;
 }
-}
+ }
+
 .cover-songs {
  color: #24B75E;
 }
@@ -401,6 +404,59 @@ audio::-webkit-media-controls-panel {
  height: 90%;
  width: 90%;
  border-radius: 50%;
+ }
+/*----------------------------------------------------------------flip animations https://davidwalsh.name/css-flip --*/
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 500px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 100%;
+  height: 100%;
+  margin-top: -25%;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+}
+.cover-originals {
+  background-color: #5900CC;
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;    
+  color: #fff;  
+}
+.cover-originals .go-to-original a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* -------------------------------------------------------------------------------------Events Section */

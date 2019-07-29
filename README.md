@@ -98,3 +98,4 @@ animated hover -https://github.com/IanLunn/Hover/blob/master/css/hover.css
 https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image
 https://pxhere.com/en/photo/720062 - background-image
 https://stackoverflow.com/questions/4126708/is-it-possible-to-style-html5-audio-tag 
+https://davidwalsh.name/css-flip - flip animations
