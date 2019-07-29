@@ -133,7 +133,7 @@ p {
  color: #fff;
  background-color: #CC5500;
  border-color: #CC5500;
-  font-family: 'Oswald', sans-serif;
+ font-family: 'Oswald', sans-serif;
  margin-top: 5px;
  margin-right: 40px;
 
@@ -575,8 +575,7 @@ table {
 }
 
 #sticky-footer span {
- padding: 15px;
- 100px;
+ padding: 50px 15px;
 }
 
 #sticky-footer img {
