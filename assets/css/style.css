@@ -371,16 +371,19 @@ p {
 .cover-music {
  margin:0;
 }
-.cover-music .audio-box {
-display: inline;
-}
 
 .cover-music .audio-box {
  color: #24B75E;
- background-color: rgba(89,0,204,0.5) ;
+ background-color: rgba(89,0,204,0) ;
 }
 .cover-music .audio-box {
  color: #24B75E;
+ margin-bottom: 25px;
+ }
+ .audio-box-body {
+  background-color: rgba(89,0,204,0.5) ;
+  border-radius: 15%;
+  padding: 5px;
  }
  @media (min-width: 768px) {
  .cover-music audio {
@@ -493,6 +496,10 @@ table {
 
 .card-body {
  color: #B72512;
+}
+
+.card img {
+ height: 150px;
 }
 
 .btn-red {
