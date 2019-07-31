@@ -18,10 +18,15 @@ font-family: 'Marck Script', cursive;
 
   */
 
-body {
+html {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+  body {
  margin-top: 100px;
  padding: 0;
-
+text-align: center;
 
 }
 
@@ -337,40 +342,44 @@ p {
  padding-bottom: 15px;
 }
 
+.music-heading {
+  background-color: #5900CC;
+  color: #fff;
+  padding: 10px 0;
+ }
 
-.music {
+ .original-heading {
+  color: #24B75E;
+ }
+
+ .og {
+  background-color: rgba(89,0,204,0.5);
+ 
+}
+.original-music {
  padding-top: 15px;
  text-align: center;
+ margin: auto;
+ padding: 0;
 }
 
-.music-heading {
- background-color: #5900CC;
- color: #fff;
- padding: 10px 0;
-}
-
-.original-heading {
- color: #24B75E;
-}
-
-.og {
- background-color: rgba(89,0,204,0.5);
-}
-/* --------------------------------------------------------------------------------Video flip*/
-
-
-/*----------------------------------------------------------------------------------Video */
-.music .play {
-margin-bottom: 5%;
+.original-music .play {
+margin: 2.5% 1px;
 
 }
 #player iframe {
  border-color: rgba(37, 184, 95,0.8);
  border-radius: 25%;
  border-width: 3px;
- margin: 15px;
+ margin: 20px;
  border-style: double;
  padding: 5px;
+ 
+}
+@media (max-width: 767px) {
+  #player iframe {
+    width:90%;
+  }
 }
 
 /* ----------------------------------------------------------------------------------Audio */
@@ -401,6 +410,11 @@ margin-bottom: 5%;
  width:90%;
 }
  }
+ @media (max-width: 767px) {
+  .cover-music audio {
+  width: 70%;
+ }
+  }
 
 .cover-songs {
  color: #24B75E;
@@ -428,12 +442,13 @@ audio::-webkit-media-controls-panel {
 	width: 100%;
   height: 100%;
   margin-top: -25%;
+  background-color: #5900CC;
 }
 
 @media (max-width: 767px) {
   .flip-container, .front, .back {
-    width: 75%;
-    height: 75%;
+    width: 100%;
+    height: 100%;
     margin-top: -25%;
   }
   .front, .back {
@@ -447,8 +462,8 @@ audio::-webkit-media-controls-panel {
 
 @media (mid-width: 992px){
   flip-container, .front, .back {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     margin-top: -25%;
   }
   .front, .back {
@@ -483,20 +498,28 @@ audio::-webkit-media-controls-panel {
 /* back, initially hidden pane */
 .back {
   transform: rotateY(180deg);
- 
-}
-.cover-originals {
-  height: 90%;
-  width: 90%;
-  border-radius: 50%;    
-  background-color: #5900CC;
-  color: #fff;  
+   
 }
 
-
-.cover-originals .go-to-original a {
+ .go-to-original a {
   text-decoration: none;
   color: #fff;
+
+}
+.go-to-original{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: #5900CC;
+  color: #fff;  
+  padding:  25% 2%;
+}
+@media (min-width:992px) {
+  .go-to-original{
+  background-color: #5900CC;
+  color: #fff; 
+  padding: 25px;   
+}
 }
 .original-artist-cover {
   vertical-align: bottom;
@@ -592,7 +615,10 @@ table {
  padding: 10px 0;
  margin-bottom: 25px;
 }
-
+ .card {
+   margin: auto;
+   margin-bottom: 15px;
+ }
 .card-body {
  color: #B72512;
 }
