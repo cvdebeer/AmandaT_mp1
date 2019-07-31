@@ -360,6 +360,10 @@ p {
 
 
 /*----------------------------------------------------------------------------------Video */
+.music .play {
+  padding: 15px;
+  margin: 10px;
+}
 #player iframe {
  border-color: rgba(37, 184, 95,0.8);
  border-radius: 25%;
@@ -374,7 +378,12 @@ p {
  margin:0;
 }
 .audio-box {
-  margin-bottom: 25px;
+  padding: 5%;
+}
+@media (min-width: 993px) {
+  .audio-box {
+    padding: 10%;
+  }
 }
 .cover-music .audio-box {
  color: #24B75E;
@@ -408,7 +417,7 @@ audio::-webkit-media-controls-panel {
 /*----------------------------------------------------------------flip animations https://davidwalsh.name/css-flip --*/
 /* entire container, keeps perspective */
 .flip-container {
-	perspective: 500px;
+	perspective: 1000px;
 }
 	/* flip the pane when hovered */
 	.flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -421,6 +430,34 @@ audio::-webkit-media-controls-panel {
   margin-top: -25%;
 }
 
+@media (max-width: 767px) {
+  .flip-container, .front, .back {
+    width: 75%;
+    height: 75%;
+    margin-top: -25%;
+  }
+  .front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 50px;
+    left: 75px;
+  }
+  
+}
+
+@media (mid-width: 992px){
+  flip-container, .front, .back {
+    width: 80%;
+    height: 80%;
+    margin-top: -25%;
+  }
+  .front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 35px;
+    left: 70px;
+  }
+}
 /* flip speed goes here */
 .flipper {
 	transition: 0.6s;
@@ -446,17 +483,23 @@ audio::-webkit-media-controls-panel {
 /* back, initially hidden pane */
 .back {
   transform: rotateY(180deg);
+ 
 }
 .cover-originals {
-  background-color: #5900CC;
   height: 90%;
   width: 90%;
   border-radius: 50%;    
+  background-color: #5900CC;
   color: #fff;  
 }
+
+
 .cover-originals .go-to-original a {
   text-decoration: none;
   color: #fff;
+}
+.original-artist-cover {
+  vertical-align: bottom;
 }
 
 /* -------------------------------------------------------------------------------------Events Section */
