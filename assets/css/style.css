@@ -361,8 +361,8 @@ p {
 
 /*----------------------------------------------------------------------------------Video */
 .music .play {
-  padding: 15px;
-  margin: 10px;
+margin-bottom: 5%;
+
 }
 #player iframe {
  border-color: rgba(37, 184, 95,0.8);
