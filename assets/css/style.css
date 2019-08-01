@@ -147,6 +147,12 @@ p {
 .navstyle {
  margin-left: -65px;
 }
+.nav-item {
+ padding: 15px;
+}
+.navbar-light .navbar-toggler {
+ border-color: rgba(0,0,0,0);
+}
 .nav-item span {
  display: block;
  width: 100%;
@@ -630,6 +636,7 @@ table {
 .modal-content {
  background-color: #12A4B7;
  color: #fff;
+ text-align: left;
 }
 
 .modal-header {
@@ -642,7 +649,7 @@ table {
  padding: 0;
  font-family: 'Righteous', cursive;
  font-weight: 700;
- font-size: 32px;
+ font-size: 48px;
  color: #0300CC;
  margin: auto;
 }
