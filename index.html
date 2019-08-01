@@ -18,7 +18,7 @@
     <title>Amanda T.</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#nav-scroll">
     <header>
         <!-- Main page header-->
         <div class="container-fluid fixed-top heading">
@@ -41,7 +41,7 @@
 
         <!-- NAVBAR -->
         <div class="container-fluid nav-top">
-            <nav class="navbar navbar-expand-lg navbar-light nav-text">
+            <nav class="navbar navbar-expand-lg navbar-light nav-text" id="nav-scroll">
                 <a class="navbar-brand" href="#"><img src="assets/images/songbird_white.png" height="30px" width="30px"
                         alt="logo" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -57,25 +57,24 @@
                     <div class="nav-text uppercase">
                         <ul class="navbar-nav">
                             <li class="nav-item active hover-home">
-                                <a class="nav-link" href="#home"><i class="fas fa-home"
+                                <a class="nav-link hvr-sweep-to-top " href="#home"><i class="fas fa-home"
                                         aria-hidden="true"></i><span>Home</span><span
                                         class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#music" data-toggle="collapse" data-target=".nav-collapse"><i
+                            <li class="nav-item hover-music">
+                                <a class="nav-link  hvr-sweep-to-top " href="#music" ><i
                                         class="fas fa-music" aria-hidden="true"></i><span>Music</span></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#events" ddata-toggle="collapse"
-                                    data-target=".nav-collapse"><i class="far fa-calendar-alt"
+                            <li class="nav-item hover-events " >
+                                <a class="nav-link hvr-sweep-to-top " href="#events"><i class="far fa-calendar-alt"
                                         aria-hidden="true"></i><span>Events</span></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#news" data-toggle="collapse" data-target=".nav-collapse"><i
+                            <li class="nav-item hover-news">
+                                <a class="nav-link hvr-sweep-to-top " href="#news" ><i
                                         class="far fa-newspaper" aria-hidden="true"></i><span>News</span></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#getintouch"><i class="fas fa-phone"
+                            <li class="nav-item hover-contact ">
+                                <a class="nav-link hvr-sweep-to-top" href="#getintouch"><i class="fas fa-phone"
                                         aria-hidden="true"></i><span><button type="button" class="btn contact-btn"
                                             data-toggle="modal" data-target="#getintouch">Contact</button></span></a>
                             </li>
@@ -354,7 +353,7 @@
 
 
         </section>
-        <section class="events " id="events ">
+        <section class="events" id="events">
             <div class="events-heading ">
                 <h2>My Events Page</h2>
                 <p>Come and watch me live</p>
@@ -395,8 +394,8 @@
                      </div>
                 <hr class=" mh-rule ">
         </section>
-        <section class=" news " id=" news ">
-                <div class=" news-heading ">
+        <section class="news" id="news">
+                <div class="news-heading">
                     <h2>Latest News</h2>
                     <p>Check out what I've been up to lately</p>
                 </div>
