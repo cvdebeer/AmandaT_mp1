@@ -18,693 +18,705 @@ font-family: 'Marck Script', cursive;
 
   */
 
-html {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-  body {
-    position: relative;
- margin-top: 100px;
- padding: 0;
-text-align: center;
-
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
- font-family: 'Righteous', cursive;
-}
-
-p {
- font-family: 'Oswald', sans-serif;
-}
-
-/* ------------------------------------------------------------Header */
-
-.sm-links {
- padding: 0;
- font-size: x-large;
- color: #cc5500;
- margin-top: 10px;
- margin-left: 15px;
-}
-
-.sm-links:hover {
- color: #0077CC;
-}
-
-.title {
- text-align: center;
-}
-
-.title .amanda {
- padding: 0;
- font-family: 'Righteous', cursive;
- font-weight: 600;
- color: #0077CC;
- text-align: center;
-}
-
-.title .subtitle {
- font-family: 'Marck Script', cursive;
- font-size: 20px;
- font-weight: 200;
-}
-
-.in-touch {
- padding: 5px;
- text-align: right;
- margin-right: -15px;
-
-}
-.hvr-sweep-to-right:before {
-  background: #0077CC;
-}
-
-.go-btn {
- color: #fff;
- background-color: #CC5500;
- border-color: #CC5500;
- font-family: 'Oswald', sans-serif;
- margin-top: 5px;
- margin-right: 40px;
-
-}
-
-.uppercase {
- text-transform: uppercase;
-}
-
-
-/* -----------------------------------------------------------Navbar */
-
-.heading {
- background-color: #fff;
- z-index: 99
-}
-
-.nav-top {
- padding: 0;
- margin-top: -50px;
- position: fixed;
- background-color: #CC5500;
- z-index: 100;
-}
-
-
-.nav-text {
- margin: auto;
- padding-left: 15px;
-  font-family: 'Oswald', sans-serif;
- text-align: center;
- background-color: #CC5500;
-}
-
-.hover-home .hvr-sweep-to-top:before {
- background: #0300CC;
-}
-.hover-music .hvr-sweep-to-top:before {
-  background: #5900CC;
- }
- .hover-events .hvr-sweep-to-top:before {
-  background:#12A4B7;
- }
- .hover-news .hvr-sweep-to-top:before {
-  background: #B72512;
- }
- .hover-contact .hvr-sweep-to-top:before {
-  background:#0077CC;
- }
-.navbar-toggler {
- border: 1px solid rgb(255, 255, 255);
-}
-
-.navstyle {
- margin-left: -65px;
-}
-.nav-item {
- padding: 15px;
-}
-.navbar-light .navbar-toggler {
- border-color: rgba(0,0,0,0);
-}
-.nav-item span {
- display: block;
- width: 100%;
- padding: 0 15px;
- text-align: center;
- font-size: 15px;
- font-weight: 400;
- letter-spacing: 3px;
- color: #fff;
-}
-@media (max-width: 991px){
-.nav-item span {
-  display: inline;
-  width: 100%;
-  padding: 0 15px;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 400;
-  letter-spacing: 3px;
-  color: #fff;
- }
-}
-.nav-item a:hover {
-  color: #0300CC;
+  html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
   }
-.nav-item a i {
- display: block;
- text-align: center;
- color: #fff;
-
-}
-
-.nav-link .contact-btn {
- display: block;
- width: 100%;
- padding: 0 7px;
- text-align: center;
- font-size: 15px;
- font-weight: 400;
- letter-spacing: 3px;
- color: #fff;
- text-transform: uppercase;
-}
-
-
-
-.burger_icon {
- color: #fff;
-
-}
-
-@media (max-width:991px) {
- .navbar-collapse {
-  height: 100vh;
-  margin: auto;
- }
- .nav-item {
-   display: inline;
- }
- .nav-item .nav-link {
-  display: inline;
-}
-.nav-item a i {
-  display: inline;
-  text-align: right;
-  color: #fff;
-  font-size: x-large;
-  padding: 10px; 
- 
- }
- .nav-link .contact-btn {
-  display: inline;
-  font-size: 25px;
-  width: 30%;
- padding: 0;
- }
- .social-links-sm i {
+    body {
+      position: relative;
+   margin-top: 100px;
+   padding: 0;
+  text-align: center;
+  
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+   font-family: 'Righteous', cursive;
+  }
+  
+  p {
+   font-family: 'Oswald', sans-serif;
+  }
+  
+  /* ------------------------------------------------------------Header */
+  
+  .sm-links {
+   padding: 0;
    font-size: x-large;
-   padding: 30px 10px;
- }
-}
-
-@media (max-width:767px) {
- .pic img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  margin: 50px;
- }
-}
-
-@media (min-width:768px) and (max-width: 991px) {
- .pic img {
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-  margin: 50px;
- }
- .nav-link .contact-btn {
-   width: 17%; 
- }
-}
-
-.social-links-sm {
- color: #fff;
-}
-
-
-@media (min-width:768px) and (max-width: 991px) {
- .nav-item span {
-  font-size: 30px;
-}
- }
-
- @media (min-width:768px) and (max-width: 991px) {
-  .nav-link .contact-btn {
-   font-size: 30px;
+   color: #cc5500;
+   margin-top: 10px;
+   margin-left: 15px;
   }
- }
- .inline {
-  display: inline;
- }
-
- @media (min-width:768px) and (max-width: 991px) {
+  
+  .sm-links:hover {
+   color: #0077CC;
+  }
+  
+  .title {
+   text-align: center;
+  }
+  
+  .title .amanda {
+   padding: 0;
+   font-family: 'Righteous', cursive;
+   font-weight: 600;
+   color: #0077CC;
+   text-align: center;
+  }
+  
+  .title .subtitle {
+   font-family: 'Marck Script', cursive;
+   font-size: 20px;
+   font-weight: 200;
+  }
+  
+  .in-touch {
+   padding: 5px;
+   text-align: right;
+   margin-right: -15px;
+  
+  }
+  .hvr-sweep-to-right:before {
+    background: #0077CC;
+  }
+  
+  .go-btn {
+   color: #fff;
+   background-color: #CC5500;
+   border-color: #CC5500;
+   font-family: 'Oswald', sans-serif;
+   margin-top: 5px;
+   margin-right: 40px;
+  
+  }
+  
+  .uppercase {
+   text-transform: uppercase;
+  }
+  
+  
+  /* -----------------------------------------------------------Navbar */
+  
+  .heading {
+   background-color: #fff;
+   z-index: 99
+  }
+  .navbar-brand img {
+    height: 30px;
+    width: 30px;
+  }
+  .nav-top {
+   padding: 0;
+   margin-top: -50px;
+   position: fixed;
+   background-color: #CC5500;
+   z-index: 100;
+  }
+  
+  
   .nav-text {
-   font-size: 32px;
+   margin: auto;
+   padding-left: 15px;
+    font-family: 'Oswald', sans-serif;
+   text-align: center;
+   background-color: #CC5500;
+  }
+  
+  .hover-home .hvr-sweep-to-top:before {
+   background: #0300CC;
+  }
+  .hover-music .hvr-sweep-to-top:before {
+    background: #5900CC;
+   }
+   .hover-events .hvr-sweep-to-top:before {
+    background:#12A4B7;
+   }
+   .hover-news .hvr-sweep-to-top:before {
+    background: #B72512;
+   }
+   .hover-contact .hvr-sweep-to-top:before {
+    background:#0077CC;
+   }
+  .navbar-toggler {
+   border: 1px solid rgb(255, 255, 255);
+  }
+  
+  .navstyle {
+   margin-left: -65px;
+  }
+  .nav-item {
+   padding: 10px;
+  }
+  .navbar-light .navbar-toggler {
+   border-color: rgba(0,0,0,0);
+  }
+  .nav-item span {
+   display: block;
+   width: 100%;
+   padding: 0 15px;
+   text-align: center;
+   font-size: 15px;
+   font-weight: 400;
    letter-spacing: 3px;
+   color: #fff;
   }
- }
-
-
- /* --------------------------------------------------------------About me */
- .about {
-  background-image: url('../images/fence-guitar.png');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 15px;
-  background-color: #0039CC;
- }
-.cover {
- width: 100%;
- height: auto;
- padding: 1% 0;
-}
-.cover img {
- height:400px;
-}
-@media (min-width: 1200px) {
-.cover img {
-  height:600px;
-}
-}
-.artist-info .moving-text {
- padding: 10px;
-}
-.moving-text-box {
- width: 80%;
- height: 20%;
- border-radius: 45% 0 50% 0;
- background-color: rgba(0, 119, 204, .9);
- margin: 10px;
- padding: 20px;
-}
-.moving-text-box .moving-text {
- text-align: center;
- color: #fff;
-}
-.mh-rule {
- width: 10%;
- height: 2px;
- background-color: #CC5500;
-}
-
-
-
-
-/* ------------------------------------------------------------------------------Music Section */
-
-#music {
- background-image: url('../images/microphone.jpg');
- background-attachment: fixed;
- background-repeat: no-repeat;
- background-size: cover;
- text-align: center;
- padding-bottom: 15px;
-}
-
-.music-heading {
-  background-color: #5900CC;
-  color: #fff;
-  padding: 10px 0;
- }
-
- .original-heading {
-  color: #24B75E;
- }
-
- .og {
-  background-color: rgba(89,0,204,0.5);
- 
-}
-.original-music {
- padding-top: 15px;
- text-align: center;
- margin: auto;
- padding: 0;
-}
-
-.original-music .play {
-margin: 2.5% 1px;
-
-}
-#player iframe {
- border-color: rgba(37, 184, 95,0.8);
- border-radius: 25%;
- border-width: 3px;
- margin: 20px;
- border-style: double;
- padding: 5px;
- 
-}
-@media (max-width: 767px) {
-  #player iframe {
-    width:90%;
+  @media (max-width: 991px){
+  .nav-item span {
+    display: inline;
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+   }
   }
-}
 
-/* ----------------------------------------------------------------------------------Audio */
-.cover-music {
- margin:0;
-}
-.audio-box {
-  padding: 5%;
-}
-@media (min-width: 993px) {
+  .nav-item a i {
+   display: block;
+   text-align: center;
+   color: #fff;
+  
+  }
+  
+  .nav-link .contact-btn {
+   display: block;
+   width: 100%;
+   padding: 0 7px;
+   text-align: center;
+   font-size: 15px;
+   font-weight: 400;
+   letter-spacing: 3px;
+   color: #fff;
+   text-transform: uppercase;
+  }
+  
+  
+  
+  .burger_icon {
+   color: #fff;
+  
+  }
+  
+  @media (max-width:991px) {
+   .navbar-collapse {
+    height: 100vh;
+    margin: auto;
+   }
+   .nav-item {
+     display: inline;
+   }
+   .nav-item .nav-link {
+    display: inline;
+  }
+  .nav-item a i {
+    display: inline;
+    text-align: right;
+    color: #fff;
+    font-size: x-large;
+    padding: 10px; 
+   
+   }
+   .nav-link .contact-btn {
+    display: inline;
+    font-size: 25px;
+    width: 30%;
+   padding: 0;
+   }
+   .social-links-sm i {
+     font-size: x-large;
+     padding: 30px 10px;
+   }
+  }
+  
+  @media (max-width:767px) {
+   .pic img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 50px;
+   }
+  }
+  
+  @media (min-width:768px) and (max-width: 991px) {
+   .pic img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 50px;
+   }
+   .nav-link .contact-btn {
+     width: 17%; 
+   }
+  }
+  
+  .social-links-sm {
+   color: #fff;
+  }
+  
+  
+  @media (min-width:768px) and (max-width: 991px) {
+   .nav-item span {
+    font-size: 30px;
+  }
+   }
+  
+   @media (min-width:768px) and (max-width: 991px) {
+    .nav-link .contact-btn {
+     font-size: 30px;
+    }
+   }
+   .inline {
+    display: inline;
+   }
+  
+   @media (min-width:768px) and (max-width: 991px) {
+    .nav-text {
+     font-size: 32px;
+     letter-spacing: 3px;
+    }
+   }
+  
+  
+   /* --------------------------------------------------------------About me */
+   .about {
+    background-image: url('../images/fence-guitar.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15px;
+    background-color: #0039CC;
+   }
+  .cover {
+   width: 100%;
+   height: auto;
+   padding: 1% 0;
+  }
+  .cover img {
+   height:400px;
+  }
+  @media (min-width: 1200px) {
+  .cover img {
+    height:600px;
+  }
+  }
+  .artist-info .moving-text {
+   padding: 10px;
+  }
+  .moving-text-box {
+   width: 80%;
+   height: 20%;
+   border-radius: 45% 0 50% 0;
+   background-color: rgba(0, 119, 204, .9);
+   margin: 10px;
+   padding: 20px;
+  }
+  .moving-text-box .moving-text {
+   text-align: center;
+   color: #fff;
+  }
+  .mh-rule {
+   width: 10%;
+   height: 2px;
+   background-color: #CC5500;
+  }
+  
+  
+  
+  
+  /* ------------------------------------------------------------------------------Music Section */
+  
+  #music {
+   background-image: url('../images/microphone.jpg');
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   padding-bottom: 15px;
+  }
+  
+  .music-heading {
+    background-color: #5900CC;
+    color: #fff;
+    padding: 10px 0;
+   }
+  
+   .original-heading {
+    color: #24B75E;
+   }
+  
+   .og {
+    background-color: rgba(89,0,204,0.5);
+   
+  }
+  .original-music {
+   padding-top: 15px;
+   text-align: center;
+   margin: auto;
+   padding: 0;
+  }
+  
+  .original-music .play {
+  margin: 2.5% 1px;
+  
+  }
+  .play iframe {
+   border-color: rgba(37, 184, 95,0.8);
+   border-radius: 25%;
+   border-width: 3px;
+   margin: 20px;
+   border-style: double;
+   padding: 5px;
+   
+  }
+  @media (max-width: 767px) {
+    #player iframe {
+      width:90%;
+    }
+  }
+  
+  /* ----------------------------------------------------------------------------------Audio */
+  .cover-music {
+   margin:0;
+  }
   .audio-box {
-    padding: 10%;
+    padding: 5%;
   }
-}
-.cover-music .audio-box {
- color: #24B75E;
- background-color: rgba(89,0,204,0) ;
-
-}
-
- .audio-box-body {
-  background-color: rgba(89,0,204,0.5) ;
-  border-radius: 15%;
-  padding: 5px;
- }
- @media (min-width: 768px) {
- .cover-music audio {
- width:90%;
-}
- }
- @media (max-width: 767px) {
-  .cover-music audio {
-  width: 70%;
- }
+  @media (min-width: 993px) {
+    .audio-box {
+      padding: 10%;
+    }
   }
-
-.cover-songs {
- color: #24B75E;
-}
-audio::-webkit-media-controls-panel {
- background-color:#24B75E;
-}
-
-.album_cover img {
- height: 90%;
- width: 90%;
- border-radius: 50%;
- }
-/*----------------------------------------------------------------flip animations https://davidwalsh.name/css-flip --*/
-/* entire container, keeps perspective */
-.flip-container {
-	perspective: 1000px;
-}
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
-
-.flip-container, .front, .back {
-	width: 100%;
-  height: 100%;
-  margin-top: -25%;
-  background-color: #5900CC;
-}
-
-@media (max-width: 767px) {
+  .cover-music .audio-box {
+   color: #24B75E;
+   background-color: rgba(89,0,204,0) ;
+  
+  }
+  
+   .audio-box-body {
+    background-color: rgba(89,0,204,0.5) ;
+    border-radius: 15%;
+    padding: 5px;
+   }
+   @media (min-width: 768px) {
+   .cover-music audio {
+   width:90%;
+  }
+   }
+   @media (max-width: 767px) {
+    .cover-music audio {
+    width: 70%;
+   }
+    }
+  
+  .cover-songs {
+   color: #24B75E;
+  }
+  audio::-webkit-media-controls-panel {
+   background-color:#24B75E;
+  }
+  
+  .album_cover img {
+   height: 90%;
+   width: 90%;
+   border-radius: 50%;
+   }
+  /*----------------------------------------------------------------flip animations https://davidwalsh.name/css-flip --*/
+  /* entire container, keeps perspective */
+  .flip-container {
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+  }
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+      -webkit-transform: rotateY(180deg);
+              transform: rotateY(180deg);
+    }
+  
   .flip-container, .front, .back {
     width: 100%;
     height: 100%;
     margin-top: -25%;
-  }
-  .front, .back {
-    backface-visibility: hidden;
-    position: absolute;
-    top: 50px;
-    left: 75px;
+    background-color: #5900CC;
   }
   
-}
-
-@media (mid-width: 992px){
-  flip-container, .front, .back {
-    width: 100%;
-    height: 100%;
-    margin-top: -25%;
+  @media (max-width: 767px) {
+    .flip-container, .front, .back {
+      width: 100%;
+      height: 100%;
+      margin-top: -25%;
+    }
+    .front, .back {
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+      position: absolute;
+      top: 50px;
+      left: 75px;
+    }
+    
   }
+  
+  @media (max-width: 992px){
+    flip-container, .front, .back {
+      width: 100%;
+      height: 100%;
+      margin-top: -25%;
+    }
+    .front, .back {
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+      position: absolute;
+      top: 35px;
+      left: 70px;
+    }
+  }
+  /* flip speed goes here */
+  .flipper {
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    position: relative;
+  }
+  
+  /* hide back of pane during swap */
   .front, .back {
-    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
     position: absolute;
-    top: 35px;
-    left: 70px;
+    top: 0;
+    left: 0;
   }
-}
-/* flip speed goes here */
-.flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-	position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-/* front pane, placed above back */
-.front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
-}
-
-/* back, initially hidden pane */
-.back {
-  transform: rotateY(180deg);
-   
-}
-
- .go-to-original a {
-  text-decoration: none;
-  color: #fff;
-
-}
-.go-to-original{
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  background-color: #5900CC;
-  color: #fff;  
-  padding:  25% 2%;
-}
-@media (min-width:992px) {
+  
+  /* front pane, placed above back */
+  .front {
+    z-index: 2;
+    /* for firefox 31 */
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  
+  /* back, initially hidden pane */
+  .back {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+     
+  }
+  
+   .go-to-original a {
+    text-decoration: none;
+    color: #fff;
+  
+  }
   .go-to-original{
-  background-color: #5900CC;
-  color: #fff; 
-  padding: 25px;   
-}
-}
-.original-artist-cover {
-  vertical-align: bottom;
-}
-
-/* -------------------------------------------------------------------------------------Events Section */
-
-.events {
-padding:0;
- text-align: center;
- background-image: url('../images/blue-guitar.png');
- background-attachment: fixed;
- background-repeat: no-repeat;
- background-size: cover;
- padding-bottom: 15px;
-}
-
-.events-heading {
- background-color: #12A4B7;
- color: #fff;
- padding: 10px 0;
-}
-
-.table-events {
- background-color: rgba(18,164,184, 0.5);
- vertical-align: middle;
-}
-
-.table-events p {
- color: #fff;
-}
-
-.venue {
- font-weight: bold;
- font-size: 20px;
- text-transform: uppercase;
- margin-bottom: 2px;
-}
-
-
-.table .date {
- color: #fff;
-}
-
-.table td,
-.table th {
- vertical-align: middle;
-}
-
-.table button {
- color: #fff;
- border: 2px solid #12A4B7;
- font-family: 'Oswald', sans-serif;
- font-weight: 700;
- text-transform: uppercase;
-}
-
-
-table {
- max-width: 80%;
- margin: auto;
-}
-
-@media (max-width: 576px) {
- .table td,
- .table th,
- .venue,
- .table button {
-  font-size: 80%;
- }
- .table button {
-  border: 1px solid #C8CC00;
-  font-weight: 400;
- }
-}
-
-/* ------------------------------------------------------------------News */
-
-.news {
- background-image: url('../images/yours_forever.png');
- background-attachment: fixed;
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center;
- text-align: center;
- padding-bottom: 15px;
-
-}
-
-.news-heading {
- background-color: #B72512;
- color: #fff;
- padding: 10px 0;
- margin-bottom: 25px;
-}
- .card {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #5900CC;
+    color: #fff;  
+    padding:  25% 2%;
+  }
+  @media (min-width:992px) {
+    .go-to-original{
+    background-color: #5900CC;
+    color: #fff; 
+    padding: 25px;   
+  }
+  }
+  .original-artist-cover {
+    vertical-align: bottom;
+  }
+  
+  /* -------------------------------------------------------------------------------------Events Section */
+  
+  .events {
+  padding:0;
+   text-align: center;
+   background-image: url('../images/blue-guitar.png');
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 15px;
+  }
+  
+  .events-heading {
+   background-color: #12A4B7;
+   color: #fff;
+   padding: 10px 0;
+  }
+  
+  .table-events {
+   background-color: rgba(18,164,184, 0.5);
+   vertical-align: middle;
+  }
+  
+  .table-events p {
+   color: #fff;
+  }
+  
+  .venue {
+   font-weight: bold;
+   font-size: 20px;
+   text-transform: uppercase;
+   margin-bottom: 2px;
+  }
+  
+  
+  .table .date {
+   color: #fff;
+  }
+  
+  .table td,
+  .table th {
+   vertical-align: middle;
+  }
+  
+  .table button {
+   color: #fff;
+   border: 2px solid #12A4B7;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+  }
+  
+  
+  table {
+   max-width: 80%;
    margin: auto;
-   margin-bottom: 15px;
- }
-.card-body {
- color: #B72512;
-}
-
-.card img {
- height: 150px;
-}
-
-.btn-red {
- color: #B72512;
- border-color: #B72512;
-}
-
-/* ------------------------------------------------------------------Contact Modal */
-
-.modal-content {
- background-color: #12A4B7;
- color: #fff;
- text-align: left;
-}
-
-.modal-header {
- margin: auto;
- border: none;
- padding-bottom: 0px;
-}
-
-#title {
- padding: 0;
- font-family: 'Righteous', cursive;
- font-weight: 700;
- font-size: 48px;
- color: #0300CC;
- margin: auto;
-}
-
-.btn-send {
- background-color: #CC5500;
- color: #fff;
-}
-
-
-@media (max-width:991px) {
- .modal-full {
-  min-width: 100%;
-  margin: 0;
- }
-
- .modal-full .modal-content {
-  min-height: 100vh;
- }
- form {
-  max-width: 80%;
-  margin: auto;
- }
-}
-
-.modal-picture {
- margin: auto;
- margin-bottom: 100px;
-}
-
-.modal-picture img {
- height: 250px;
- width: auto;
- border-radius: 30px;
-}
-
-.modal-footer {
- margin-bottom: 25px;
-}
-
-/*------------------------------------------------------------Footer */
-
-#sticky-footer {
- flex-shrink: none;
- background-color: #cc5500;
- color: #fff;
- margin-top: 25px;
-}
-
-#sticky-footer span {
- padding: 50px 15px;
-}
-
-#sticky-footer img {
- height: 20px;
- width: 20px;
- padding-bottom: 5px;
-}
+  }
+  
+  @media (max-width: 576px) {
+   .table td,
+   .table th,
+   .venue,
+   .table button {
+    font-size: 80%;
+   }
+   .table button {
+    border: 1px solid #C8CC00;
+    font-weight: 400;
+   }
+  }
+  
+  /* ------------------------------------------------------------------News */
+  
+  .news {
+   background-image: url('../images/yours_forever.png');
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+   padding-bottom: 15px;
+  
+  }
+  
+  .news-heading {
+   background-color: #B72512;
+   color: #fff;
+   padding: 10px 0;
+   margin-bottom: 25px;
+  }
+   .card {
+     margin: auto;
+     margin-bottom: 15px;
+   }
+  .card-body {
+   color: #B72512;
+  }
+  
+  .card img {
+   height: 150px;
+  }
+  
+  .btn-red {
+   color: #B72512;
+   border-color: #B72512;
+  }
+  
+  /* ------------------------------------------------------------------Contact Modal */
+  
+  .modal-content {
+   background-color: #12A4B7;
+   color: #fff;
+   text-align: left;
+  }
+  
+  .modal-header {
+   margin: auto;
+   border: none;
+   padding-bottom: 0px;
+  }
+  
+  #title {
+   padding: 0;
+   font-family: 'Righteous', cursive;
+   font-weight: 700;
+   font-size: 48px;
+   color: #0300CC;
+   margin: auto;
+  }
+  
+  .btn-send {
+   background-color: #CC5500;
+   color: #fff;
+  }
+  
+  
+  @media (max-width:991px) {
+   .modal-full {
+    min-width: 100%;
+    margin: 0;
+   }
+  
+   .modal-full .modal-content {
+    min-height: 100vh;
+   }
+   form {
+    max-width: 80%;
+    margin: auto;
+   }
+  }
+  
+  .modal-picture {
+   margin: auto;
+   margin-bottom: 100px;
+  }
+  
+  .modal-picture img {
+   height: 250px;
+   width: auto;
+   border-radius: 30px;
+  }
+  
+  .modal-footer {
+   margin-bottom: 25px;
+  }
+  
+  /*------------------------------------------------------------Footer */
+  
+  #sticky-footer {
+   -ms-flex-negative: none;
+       flex-shrink: none;
+   background-color: #cc5500;
+   color: #fff;
+   margin-top: 25px;
+  }
+  
+  #sticky-footer span {
+   padding: 50px 15px;
+  }
+  
+  #sticky-footer img {
+   height: 20px;
+   width: 20px;
+   padding-bottom: 5px;
+  }
