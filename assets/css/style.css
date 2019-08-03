@@ -368,6 +368,9 @@ font-family: 'Marck Script', cursive;
   margin: 2.5% 1px;
   
   }
+.plyr__video-embed {
+  overflow: hidden;
+}
   .play iframe {
    border-color: rgba(37, 184, 95,0.8);
    border-radius: 25%;
@@ -375,7 +378,7 @@ font-family: 'Marck Script', cursive;
    margin: 20px;
    border-style: double;
    padding: 5px;
-   overflow: hidden;
+   
   }
   @media (max-width: 767px) {
     .play iframe {
