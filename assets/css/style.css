@@ -361,6 +361,7 @@ font-family: 'Marck Script', cursive;
    text-align: center;
    margin: auto;
    padding: 0;
+   
   }
   
   .original-music .play {
@@ -374,10 +375,10 @@ font-family: 'Marck Script', cursive;
    margin: 20px;
    border-style: double;
    padding: 5px;
-   
+   overflow: hidden;
   }
   @media (max-width: 767px) {
-    #player iframe {
+    .play iframe {
       width:90%;
     }
   }
