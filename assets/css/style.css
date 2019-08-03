@@ -368,7 +368,11 @@ font-family: 'Marck Script', cursive;
   margin: 2.5% 1px;
   
   }
-
+.play{
+  mask-image: radial-gradient rgba(37, 184, 95,0.8);
+  -webkit-mask-image: -webkit-radial-gradient rgba(37, 184, 95,0.8);
+  z-index: 0;
+}
   .play iframe {
    border-color: rgba(37, 184, 95,0.8);
    border-radius: 25%;
@@ -376,8 +380,7 @@ font-family: 'Marck Script', cursive;
    margin: 20px;
    border-style: double;
    padding: 5px;
-   mask-image: radial-gradient rgba(37, 184, 95,0.8);
-   -webkit-mask-image: -webkit-radial-gradient rgba(37, 184, 95,0.8);
+   
   }
   @media (max-width: 767px) {
     .play iframe {
