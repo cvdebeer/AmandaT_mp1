@@ -386,17 +386,14 @@ font-family: 'Marck Script', cursive;
   }
   
   /* ----------------------------------------------------------------------------------Audio */
+  
   .cover-music {
    margin:0;
   }
   .audio-box {
     padding: 5%;
   }
-  @media (min-width: 993px) {
-    .audio-box {
-      padding: 10%;
-    }
-  }
+
   .cover-music .audio-box {
    color: #24B75E;
    background-color: rgba(89,0,204,0) ;
@@ -408,6 +405,7 @@ font-family: 'Marck Script', cursive;
     border-radius: 15%;
     padding: 5px;
    }
+   
    @media (min-width: 768px) {
    .cover-music audio {
    width:90%;
@@ -427,10 +425,60 @@ font-family: 'Marck Script', cursive;
   }
   
   .album_cover img {
-   height: 90%;
-   width: 90%;
+   height: 120px;
+   width: 120px;
    border-radius: 50%;
+   margin-top: -12.5%;
    }
+   @media (min-width: 576px) {
+    .album_cover img {
+      height: 120px;
+      width: 120px;
+      border-radius: 50%;
+      margin-top: -12.5%;
+      }
+   }
+   @media (min-width: 768px) {
+    .album_cover img {
+      height: 150px;
+      width: 150px;
+      margin-top: -10%;
+      }   
+   }
+   @media (min-width: 992px) {
+    .album_cover img {
+      height: 175px;
+      width: 175px;
+      margin-top: -9%;
+      }
+   
+   }
+
+   @media (min-width: 1200px) {
+    .album_cover img {
+      height: 200px;
+      width: 200px;     
+      margin-top: -7.5%;
+      }
+   }
+.back a {
+  color: #fff;
+  vertical-align: bottom;
+}
+.cover-originals {
+  padding-top: 15%;
+}
+@media (min-width: 992px) {
+  .cover-originals {
+    padding-top: 25%;
+  }
+}
+   .go-to-original a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #5900CC;
+    margin-top: 25%;
+      }
   /*----------------------------------------------------------------flip animations https://davidwalsh.name/css-flip --*/
   /* entire container, keeps perspective */
   .flip-container {
@@ -448,38 +496,16 @@ font-family: 'Marck Script', cursive;
     height: 100%;
     margin-top: -25%;
     background-color: #5900CC;
+    color: #fff;
   }
   
-  @media (max-width: 767px) {
-    .flip-container, .front, .back {
-      width: 100%;
-      height: 100%;
-      margin-top: -25%;
-    }
-    .front, .back {
-      -webkit-backface-visibility: hidden;
-              backface-visibility: hidden;
-      position: absolute;
-      top: 50px;
-      left: 75px;
-    }
-    
+  @media (max-width: 767px)
+{
+  .flip-container, .front, .back {
+    margin-top: -30%;
+   
   }
-  
-  @media (max-width: 992px){
-    flip-container, .front, .back {
-      width: 100%;
-      height: 100%;
-      margin-top: -25%;
-    }
-    .front, .back {
-      -webkit-backface-visibility: hidden;
-              backface-visibility: hidden;
-      position: absolute;
-      top: 35px;
-      left: 70px;
-    }
-  }
+}  
   /* flip speed goes here */
   .flipper {
     -webkit-transition: 0.6s;
@@ -495,10 +521,65 @@ font-family: 'Marck Script', cursive;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
     position: absolute;
-    top: 0;
-    left: 0;
+    top:25px;
+    left: 2px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 15px 0;
+    color: #fff;
   }
-  
+
+  @media (min-width: 576px) {
+    .front, .back {
+      top: 45px;
+      left: 30px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      padding: 15px 0;
+    }
+  }
+  @media (min-width:768px) {
+    .front, .back {
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      padding: 15px 0;
+    }
+  }
+  @media (min-width:992px) {
+    .front, .back {
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+      position: absolute;
+      top: 55px;
+      left: 90px;
+      width: 175px;
+      height: 175px;
+      border-radius: 50%;
+      padding: 15px 0;
+    }
+  }
+  @media (min-width:1200px) {
+    .front, .back {
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+      position: absolute;
+      top: 80px;
+      left: 100px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      padding: 15px 0;
+    }
+  }
+
   /* front pane, placed above back */
   .front {
     z-index: 2;
@@ -514,29 +595,8 @@ font-family: 'Marck Script', cursive;
      
   }
   
-   .go-to-original a {
-    text-decoration: none;
-    color: #fff;
-  
-  }
-  .go-to-original{
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    background-color: #5900CC;
-    color: #fff;  
-    padding:  25% 2%;
-  }
-  @media (min-width:992px) {
-    .go-to-original{
-    background-color: #5900CC;
-    color: #fff; 
-    padding: 25px;   
-  }
-  }
-  .original-artist-cover {
-    vertical-align: bottom;
-  }
+
+
   
   /* -------------------------------------------------------------------------------------Events Section */
   
