@@ -368,7 +368,15 @@ font-family: 'Marck Script', cursive;
   margin: 2.5% 1px;
   
   }
+<<<<<<< HEAD
 
+=======
+.play{
+  mask-image: radial-gradient rgba(37, 184, 95,0.8);
+  -webkit-mask-image: -webkit-radial-gradient rgba(37, 184, 95,0.8);
+  z-index: 0;
+}
+>>>>>>> ab3a8b2d280059bc7593b03689f20bf1a35048db
   .play iframe {
    border-color: rgba(37, 184, 95,0.8);
    border-radius: 25%;
