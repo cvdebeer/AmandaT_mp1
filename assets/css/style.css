@@ -376,8 +376,8 @@ font-family: 'Marck Script', cursive;
    margin: 20px;
    border-style: double;
    padding: 5px;
-   mask-image: radial-gradient(rgba(0, 0, 0, 1.0), transparent);
-   -webkit-mask-image: -webkit-radial-gradient(rgba(0, 0, 0, 1.0), transparent);
+   mask-image: radial-gradient rgba(37, 184, 95,0.8);
+   -webkit-mask-image: -webkit-radial-gradient rgba(37, 184, 95,0.8);
   }
   @media (max-width: 767px) {
     .play iframe {
