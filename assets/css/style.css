@@ -166,16 +166,11 @@ font-family: 'Marck Script', cursive;
    letter-spacing: 3px;
    color: #fff;
   }
+
   @media (max-width: 991px){
   .nav-item span {
-    display: inline;
-    width: 100%;
-    padding: 0 15px;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    color: #fff;
+    display: inline;     
+    font-size: 25px;    
    }
   }
 
@@ -226,8 +221,7 @@ font-family: 'Marck Script', cursive;
    }
    .nav-link .contact-btn {
     display: inline;
-    font-size: 25px;
-    width: 30%;
+    font-size: 25px;    
    padding: 0;
    }
    .social-links-sm i {
@@ -286,6 +280,9 @@ font-family: 'Marck Script', cursive;
   
   
    /* --------------------------------------------------------------About me */
+   .about-home {
+     color: transparent;
+   }
    .about {
     background-image: url('../images/fence-guitar.png');
     background-attachment: fixed;
