@@ -354,20 +354,39 @@ font-family: 'Marck Script', cursive;
   
    .og {
     background-color: rgba(89,0,204,0.5);
+    padding-top: 1px;
    
   }
   .original-music {
    padding-top: 15px;
    text-align: center;
    margin: auto;
-   padding: 0;
-   
+   padding: 0;   
   }
-  
   .original-music .play {
-  margin: 2.5% 1px;
-  
-  }
+    margin: 10px 20px; 
+    }
+    @media (max-width: 767px) {
+      .original-music .play {
+        margin: 1px; 
+        }
+    }
+    @media (max-width: 991px) {
+      .original-music .play {
+        margin: 10px 20px; 
+      }     
+    }
+    @media (min-width:992px) {
+      .original-music .play {
+        margin: 20px 30px; 
+        }
+      .player {
+          height: 150%;
+         width: auto;
+        }
+         
+    }
+
   .play iframe {
    border-color: rgba(37, 184, 95,0.8);
    border-radius: 25%;
@@ -379,12 +398,21 @@ font-family: 'Marck Script', cursive;
    mask-image: radial-gradient(white, black);
    -webkit-mask-image: -webkit-radial-gradient(white, black);
   }
-  @media (max-width: 767px) {
+  @media (max-width: 575px) {
+    .play iframe {
+      width:80%;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
     .play iframe {
       width:90%;
     }
   }
-  
+  @media (min-width: 768px) {
+    .play iframe {
+      width:100%;
+    }
+  }
   /* ----------------------------------------------------------------------------------Audio */
   
   .cover-music {
