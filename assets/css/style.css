@@ -1,22 +1,4 @@
-/*-----------------------------------------------------------Fonts
-h1, h2, h3, h4, h5, h6 {
-font-family: 'Jura', sans-serif;
-}
 
-p {
-font-family: 'Exo 2', sans-serif;
-
-}
-font-family: 'Marck Script', cursive;
-
-
-* {
- background: #000 !important;
- color: #0f0 !important;
- outline: solid #f00 1px !important;
-}
-
-  */
 
   html {
     margin: 0;
@@ -106,6 +88,10 @@ font-family: 'Marck Script', cursive;
   .heading {
    background-color: #fff;
    z-index: 99
+  }
+  .tip p{
+    text-align: right;
+    color: #fff;
   }
   .navbar-brand img {
     height: 30px;
@@ -742,7 +728,11 @@ font-family: 'Marck Script', cursive;
    color: #fff;
    text-align: left;
   }
-  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"]:invalid {
+    border: 2px solid red;
+  }
   .modal-header {
    margin: auto;
    border: none;

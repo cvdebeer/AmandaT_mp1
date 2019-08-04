@@ -1,16 +1,13 @@
 # ![songbird](assets/images/songbird_orange_xs.png)   Amanda T. - Milestone Project 1
 ***
 
-
-🔸 Author : Claudia De Beer
-
 ##  Overview
 
-In keeping with the music theme of the default project, I decided to code a website for my niece, who is an up and coming singer and songwriter. She is hoping to be "discovered" and signed by a record label and also needs a place for potential clients to find her and contact her to book her for functions. She needs a site that can show case her talents and give her user a view of who she is and what she has to offer.
+In keeping with the music theme of the default project, I decided to code  (using HTML and CSS) a website for my neice, who is an up and coming singer and songwriter. She is hoping to be "discovered" and signed by a record label and also needs a place for potential clients to find her and contact her to book her for functions. She needs a site that can show case her talents and give her user a view of who she is and what she has to offer.
 
 ## UX
 The artist requested that I design her a site that she could provide to potential clients and agents. 
-Using [Balsamiq](assets/AmandaT_wirefame.pdf) (click to open) I designed a site that I believe would best answer that need by taking into consideration and answering the following needs:  
+Using Balsamiq [Here's My Mockup](https://github.com/cvdebeer/AmandaT_mp1/blob/master/assets/AmandaT_wireframe.pdf) (click to open) I designed a site that I believed would best answer that need by taking into consideration and answering the following needs:  
 🔸 This user would be interested in getting to know the artist's style of music. To this end I created:-
 - The "Home" section gives a few snaps of the artist, and shares her passion for music.
 - The "Music" section, showcases some of her original and cover songs, showing her range of music genres.  
@@ -25,26 +22,33 @@ Using [Balsamiq](assets/AmandaT_wirefame.pdf) (click to open) I designed a site 
 🔸 The user might not want to contact the artist immediately and might want to see where the artist is performing in public, before hiring the artist or offering a record deal. To this end I created:-
 - The "Events" section of the website, which shows up and coming public performances. This also allows any fans the opportunity to book tickets to see her perform.
 
-🔸 The user might want to see what the artist is currently working on or has been up to recently. To this end I created :-
+🔸 Although not originally in my design, I was presented with the scenario that the user might want to see what the artist is currently working on or has been up to recently. To this end I created :-
 - The "News" section of the site. In this section we have shown her latest public performance on TV (showing potential agents that she is being noticed). I also showcased her latest song, by making the lyrics available and providing a click through to the audio track.
 
 
 
 ## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-Features Left to Implement
-Another feature idea
+🔸  In the "Home" section, information and visuals are given of the artist by using Carousels. The information is provided in small, easy to read pieces and hopes to keep the user engaged.  
+🔸 The "Original Music" section, provides the user with a choice of videos that the artist has recorded. They can view them in the fram, enlarge them to full screen or follow them to YouTube. 
+- In future I would like to add image posters onto the videos, with the title of the song and a link to the lyrics.    
+  
+🔸 The "cover music" section. Here I used a horizontal card design to create an audio-player.   
+- Using styling provided by [David Walsh][1] I was able to create flip animations on the album covers and allows the user to click through to the original artists version of the song. 
+- Using an answer provided by [Fábio Zangirolami][2] on a Stackoverflow question, I was able to style my audio player to fit in with my theme.
+
+🔸 The "events" section has table with the location of future performances, allowing the user to book tickets. (The "Book Tickets" button is not currently functional  but will be on the list of future development, after  more knowledge is gained.).
+
+🔸 The "news" section makes use of Bootstraps own "cards"  to create content that links to fuller articles or outside content for the user to explore. This is done so as not to overwhelm the user with too much content, but give them the ability to see more if they want to. Both buttons work and link to content.
+
+🔸 The "Contact/ Get in touch" section is a Bootstrap Modal containing a form. The user can fill in their information and request the artist to make contact with them in relation to whatever category they have selected. There is a text box available should the user want to conver more information. (The contact form does not currently "go" anywhere as I don't have the knowledge yet so send the form- this will be part of future development)
+
+
 
 ## Technologies Used
 
-***HTML*** ~ main Language used to structure the sections of my website.  
-***CSS*** ~ styling language used to format and visually build upon the accompanying HTML.  
-***Bootstrap Framework*** ~ <https://getbootstrap.com/> ~ Used as the core structuring layout building blocks of the website, ensuring mobile-frist design and responsive size display.  
+***HTML5*** ~ main Language used to structure the sections of my website.  
+***CSS3*** ~ styling language used to format and visually build upon the accompanying HTML.  
+***Bootstrap4 Framework*** ~ <https://getbootstrap.com/> ~ Used as the core structuring layout building blocks of the website, ensuring mobile-frist design and responsive size display.  
 ***AWS Cloud9 and Visual Studio Code*** ~ Cloud9 was used as the initial IDE (Integrated Development Environment) for this project. VS code was coming highly recommended by other students, so I changed over due mainly to being kicked out of Cloud9 every hour.   
 ***Git*** ~ <https://git-scm.com/>~ Used to commit to local repository and further push to Github Repo ensuring version controlling of the project build. Originally used through Cloud9 and then downloaded to use in VScode.  
 ***Github*** ~ <https://github.com/>~ Used to host the deployed website and repository of all previous versions of the build.  
@@ -52,14 +56,30 @@ Another feature idea
 ***ColorRules*** ~ <https://apps.apple.com/ca/app/colorrules/id1198369052> (Colour Picker) ~ Application used to obtain hexadecimal/rgba/hsl values of colours. It provides different varations of colour choices depending on the base colour you select.
 ***Balsamiq*** ~ <https://balsamiq.com/>~ Used for the Creation of my initial Wireframes for my project.  
 ***Pix-resizer*** ~ <https://pixresizer.windows10compatible.com/> ~ Programme used to make my images smaller without losing the aspect ratio.  
-***Any Video converter*** ~ <https://www.any-video-converter.com/> ~ Used to change video into audio files.
-
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-JQuery 
-
+***Any Video converter*** ~ <https://www.any-video-converter.com/> ~ Used to change video into audio files.  
+***Plyr*** ~ <https://plyr.io/> ~ used to style my video player.  
+***Font-awesome*** ~ <https://fontawesome.com/> ~ Used for all the icons in my site.  
+***Google Fonts*** ~ <https://fonts.google.com/> ~ Used for all the fonts on my site.  
+***Hover.css*** ~ <https://ianlunn.github.io/Hover/> ~ Used to style the hovers on my "Get in Touch" button and navbar links.
 
 ## Testing
+Most of the testing for the project was done with Chrome Developer Tools.  
+- Breakpoint visuals were tested for each section.
+  -   Carousel padding and margins needed to be adjusted to make sure that they were inline where needed.
+  -   I had to break down the columns into more pieces to allow space for margins on the video columns so that the boxes weren't ontop of each other. (Original md-6 and lg-4 changed to md-5 and lg-3 .
+  -    A lot of adjustments needed to be made with the audio- visuals to keep them aligned within the audio files. 
+- The navigation bar was tested on all sizes. 
+  - I became aware that my full screen navbar on mobile and tablet did not actually close when you clicked on the link, eventhough you could see it scrolling on the right to the correct place and it worked fine in the desktop. After much research and trial and error trying to fix this problem, I figured out that it was caused by my fixed navbar. I only had two solutions, with my current knowledge:  
+        1.  Remove the sticky or fixed navbar (allowing my user no way to navigate once they had scrolled down) or  
+        2.  Leave the navbar in place and add a note onto the navbar on how to get to navigate through to the sections.  
+   I selected the second option.
+-  The form in the Modal was not validating. By using a combination of outlining the required elements in red border and tooltips I was able to resolve the issues. The "send" button on the Modal also needed to be changed to "submit" in order to run the validations.
+   
+I also tested on my Iphone and and Ipad to see the functionality across devices. 
+- I did notice that items that rendered well on the developer tools like the video, did not in fact properly render on the Iphone and Ipad, and I had to find work-arounds for them. I was able to partially fix the border-radius on the frame by using a mask with a radial gradient.
+
+
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
@@ -73,15 +93,13 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+This project was deployed using Git to the Github repository.
+
 
 ## Credits
-Thanks to Anthony O'Brien on slack for helping me with my header.
+  
+[1]: <https://davidwalsh.name/css-flip> Flip-animations  
+[2]: <https://stackoverflow.com/questions/4126708/is-it-possible-to-style-html5-audio-tag>
 ### Content
 The text for section Y was copied from the Wikipedia article Z
 
