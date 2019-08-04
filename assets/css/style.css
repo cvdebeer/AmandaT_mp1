@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: #CC5500;
   }
     body {
       position: relative;
@@ -89,7 +90,7 @@
    background-color: #fff;
    z-index: 99
   }
-  .tip p{
+  .tip small{
     text-align: right;
     color: #fff;
   }
