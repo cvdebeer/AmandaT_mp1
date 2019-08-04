@@ -73,24 +73,12 @@ Most of the testing for the project was done with Chrome Developer Tools.
         1.  Remove the sticky or fixed navbar (allowing my user no way to navigate once they had scrolled down) or  
         2.  Leave the navbar in place and add a note onto the navbar on how to get to navigate through to the sections.  
    I selected the second option.
--  The form in the Modal was not validating. By using a combination of outlining the required elements in red border and tooltips I was able to resolve the issues. The "send" button on the Modal also needed to be changed to "submit" in order to run the validations.
+-  The form in the Modal was not validating. By using a combination of outlining the required elements in red border and tooltips I was able to highlight the requirements for the user. The "send" button on the Modal also needed to be changed to "submit" in order to run the validations properly. 
+-  The links were tested on the Flip-animations on desktop, tablet and mobile-all worked perfectly. Mobile and tablet will freeze in the flipped side if selected. User would not know that this is possible though at this time as there is no hover fucntionality and they would need to know to click on the image so is mainly geared at desktop users. (Might look at adding a note in future)
    
 I also tested on my Iphone and and Ipad to see the functionality across devices. 
 - I did notice that items that rendered well on the developer tools like the video, did not in fact properly render on the Iphone and Ipad, and I had to find work-arounds for them. I was able to partially fix the border-radius on the frame by using a mask with a radial gradient.
 
-
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-Contact form: 
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 This project was deployed using Git to the Github repository.
@@ -99,31 +87,30 @@ This project was deployed using Git to the Github repository.
 ## Credits
   
 [1]: <https://davidwalsh.name/css-flip> Flip-animations  
-[2]: <https://stackoverflow.com/questions/4126708/is-it-possible-to-style-html5-audio-tag>
+[2]: <https://stackoverflow.com/questions/4126708/is-it-possible-to-style-html5-audio-tag>  
+
+https://convertico.com/  - to convert my png to ico so that it is more compatible with all browsers
 ### Content
-The text for section Y was copied from the Wikipedia article Z
+- Favicon ~ <https://www.quora.com/How-can-I-get-the-logo-on-title-bar> (working code to get the icon into the tab bar at the top of the page)
+
+- sticky footer ~ <https://startbootstrap.com/snippets/sticky-footer-flexbox/>
 
 ### Media
 The photos used in this site were obtained from ...
-Songbird for logo and icon - https://svgsilh.com/image/1295782.html
-https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/2_Kay_K235_acoustic-guitar.jpg/1024px-2_Kay_K235_acoustic-guitar.jpg
-https://upload.wikimedia.org/wikipedia/en/4/47/Alanis_Morissette_-_Jagged_Little_Pill.jpg
-https://upload.wikimedia.org/wikipedia/en/b/b6/City_of_angels_%28album_cover%29.jpg
-https://upload.wikimedia.org/wikipedia/en/8/8c/Come_Together-Something_%28single_cover%29.jpg
+
+- Songbird for logo and icon <https://svgsilh.com/image/1295782.html>
+- Album cover- Alanis Morissete- <https://upload.wikimedia.org/wikipedia/en/4/47/Alanis_Morissette_-_Jagged_Little_Pill.jpg>
+- Album cover - City if Angels <https://upload.wikimedia.org/wikipedia/en/b/b6/City_of_angels_%28album_cover%29.jpg>
+- Album cover - Beatles- Come Together <https://upload.wikimedia.org/wikipedia/en/8/8c/Come_Together-Something_%28single_cover%29.jpg>
+- Background images - <https://pxhere.com/>
+- Images of Amanda - received from the artist herself.
+  
 ### Acknowledgements
-I received inspiration for this project from X
+Thanks to all the mentors on Slack and my own for helping me when I got stuck. Couldn't have done it without their help.
 
 
-🔸 Favicon- https://www.quora.com/How-can-I-get-the-logo-on-title-bar (working code to get the icon into the tab bar at the top of the page)  and https://convertico.com/  - to convert my png to ico so that it is more compatible with all browsers
-🔸 Google fonts- Jura, Marck Script and Exo 2 Marck+Script|Oswald|Righteous!!
-🔸 Toggle button- https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color/42587673
-🔸 Cover full screen with navar - https://css-tricks.com/responsive-menu-concepts/ & https://stackoverflow.com/questions/46927448/bootstrap-full-screen-menu-on-all-devices
-https://github.com/wagerfield/parallax
-https://stackoverflow.com/questions/14203279/bootstrap-close-responsive-menu-on-click
-https://startbootstrap.com/snippets/sticky-footer-flexbox/ - sticky footer
-animated hover -https://github.com/IanLunn/Hover/blob/master/css/hover.css
 
-https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image
-https://pxhere.com/en/photo/720062 - background-image
-https://stackoverflow.com/questions/4126708/is-it-possible-to-style-html5-audio-tag 
-https://davidwalsh.name/css-flip - flip animations
+
+
+
+
