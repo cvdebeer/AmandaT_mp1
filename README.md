@@ -1,25 +1,34 @@
-#  Amanda T. - Milestone Project 1
+# ![songbird](assets/images/songbird_orange_xs.png)   Amanda T. - Milestone Project 1
 ***
 
-🔸 Web-Application Name : Amanda T.
+
 🔸 Author : Claudia De Beer
 
 ##  Overview
 
-I decided to code a website for my niece, who is an up and coming singer and songwriter, who is hoping to be "discovered" and signed by a record label. She needs a site that can show case her talents and give ther user a view of who she is.
-
-
-One or two paragraphs providing an overview of your project.
-Essentially, this part is your sales pitch.
+In keeping with the music theme of the default project, I decided to code a website for my niece, who is an up and coming singer and songwriter. She is hoping to be "discovered" and signed by a record label and also needs a place for potential clients to find her and contact her to book her for functions. She needs a site that can show case her talents and give her user a view of who she is and what she has to offer.
 
 ## UX
-This site is aimed at potential clients that may want to hire the musician for a function. It is also aimed at potential agents.
-The focus of the site is to provide potential clients and agents with information about the musician, they type of music they perform and to showcase their talent.
+The artist requested that I design her a site that she could provide to potential clients and agents. 
+Using [Balsamiq](assets/AmandaT_wirefame.pdf) (click to open) I designed a site that I believe would best answer that need by taking into consideration and answering the following needs:  
+🔸 This user would be interested in getting to know the artist's style of music. To this end I created:-
+- The "Home" section gives a few snaps of the artist, and shares her passion for music.
+- The "Music" section, showcases some of her original and cover songs, showing her range of music genres.  
+  - I presented the original songs in video format linked to her YouTube posts. This allows the user to see her passion for the songs that she writes and sings.
+  - I presented the cover songs as audio, using album covers to trigger the users memory and identify the original artist. The album cover flips so that the user can go the the original song and compare if they want to.
+  
+🔸 The user would also want to be able to contact the artist in order to hire her for gigs/functions or set up a meeting for a collaboration. To this end I created :-
+- Two points of getting in touch 
+    - First ~ with the "Get in Touch" button that users can press which will take them immediately to the "Contact Form" Modal
+    - Second ~ through the "Contact" link in the menu, which also takes them through to the "Contact Form" Modal.
+  
+🔸 The user might not want to contact the artist immediately and might want to see where the artist is performing in public, before hiring the artist or offering a record deal. To this end I created:-
+- The "Events" section of the website, which shows up and coming public performances. This also allows any fans the opportunity to book tickets to see her perform.
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+🔸 The user might want to see what the artist is currently working on or has been up to recently. To this end I created :-
+- The "News" section of the site. In this section we have shown her latest public performance on TV (showing potential agents that she is being noticed). I also showcased her latest song, by making the lyrics available and providing a click through to the audio track.
+
+
 
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -37,7 +46,7 @@ Another feature idea
 ***CSS*** ~ styling language used to format and visually build upon the accompanying HTML.  
 ***Bootstrap Framework*** ~ <https://getbootstrap.com/> ~ Used as the core structuring layout building blocks of the website, ensuring mobile-frist design and responsive size display.  
 ***AWS Cloud9 and Visual Studio Code*** ~ Cloud9 was used as the initial IDE (Integrated Development Environment) for this project. VS code was coming highly recommended by other students, so I changed over due mainly to being kicked out of Cloud9 every hour.   
- ***Git*** ~ <https://git-scm.com/>~ Used to commit to local repository and further push to Github Repo ensuring version controlling of the project build. Originally used through Cloud9 and then downloaded to use in VScode.  
+***Git*** ~ <https://git-scm.com/>~ Used to commit to local repository and further push to Github Repo ensuring version controlling of the project build. Originally used through Cloud9 and then downloaded to use in VScode.  
 ***Github*** ~ <https://github.com/>~ Used to host the deployed website and repository of all previous versions of the build.  
 ***Google Chrome Developer Tools*** ~ Used as the core testing mechanism throughout the project build to see what the repsonsiveness accross all devices.  
 ***ColorRules*** ~ <https://apps.apple.com/ca/app/colorrules/id1198369052> (Colour Picker) ~ Application used to obtain hexadecimal/rgba/hsl values of colours. It provides different varations of colour choices depending on the base colour you select.
