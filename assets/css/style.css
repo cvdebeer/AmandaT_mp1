@@ -55,7 +55,7 @@ font-family: 'Marck Script', cursive;
   }
   
   .sm-links:hover {
-   color: #0077CC;
+   color: #171B8F;
   }
   
   .title {
@@ -68,7 +68,7 @@ font-family: 'Marck Script', cursive;
    width: 100%;
    font-family: 'Righteous', cursive;
    font-weight: 600;
-   color: #0077CC;
+   color: #171B8F;
    text-align: center;
   }
   
@@ -85,7 +85,7 @@ font-family: 'Marck Script', cursive;
   
   }
   .hvr-sweep-to-right:before {
-    background: #0077CC;
+    background: #171B8F;
   }
   
   .go-btn {
@@ -126,7 +126,7 @@ font-family: 'Marck Script', cursive;
 }
 .menu-toggle:hover,
 .menu-toggle:focus {
-  color: #ccb4a3;
+  color: #171B8F;
 }
 
 /*
@@ -274,7 +274,7 @@ font-family: 'Marck Script', cursive;
   }
 
    .main-menu a {
-    color: #06c;
+    color: #171B8F;
     border: 0 !important; /* Remove borders from off-canvas styling */
   }
   .main-menu a:hover,
@@ -316,19 +316,19 @@ font-family: 'Marck Script', cursive;
   }
   
   .hover-home .hvr-sweep-to-top:before {
-   background: #0300CC;
+   background: #24B75E;
   }
   .hover-music .hvr-sweep-to-top:before {
     background: #5900CC;
    }
    .hover-events .hvr-sweep-to-top:before {
-    background:#12A4B7;
+    background:#171B8F;
    }
    .hover-news .hvr-sweep-to-top:before {
-    background: #B72512;
+    background: #EFC157;
    }
    .hover-contact .hvr-sweep-to-top:before {
-    background:#0077CC;
+    background:#12A4B7;
    }
   .navbar-toggler {
    border: 1px solid rgb(255, 255, 255);
@@ -473,17 +473,21 @@ font-family: 'Marck Script', cursive;
     color: transparent;
   }
    .about {
-    background-image: url('../images/fence-guitar.png');
+    background-image: url('https://res.cloudinary.com/dgsqmdssi/image/upload/v1565017955/Amanda/fence-guitar_msfy9g.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 15px;
-    background-color: #0039CC;
+    background-color: #171B8F;
    }
   .cover {
    width: 100%;
    height: auto;
    padding: 1% 0;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+   background-color:#24B75E ;
   }
   .cover img {
    height:400px;
@@ -500,7 +504,7 @@ font-family: 'Marck Script', cursive;
    width: 80%;
    height: 20%;
    border-radius: 45% 0 50% 0;
-   background-color: rgba(0, 119, 204, .9);
+   background-color: rgba(37, 184, 95,0.8);
    margin: 10px;
    padding: 20px;
   }
@@ -520,7 +524,7 @@ font-family: 'Marck Script', cursive;
   /* ------------------------------------------------------------------------------Music Section */
   
   #music {
-   background-image: url('../images/microphone.jpg');
+   background-image: url('https://res.cloudinary.com/dgsqmdssi/image/upload/v1565017958/Amanda/microphone_a5emmo.jpg');
    background-attachment: fixed;
    background-repeat: no-repeat;
    background-size: cover;
@@ -798,7 +802,7 @@ font-family: 'Marck Script', cursive;
   .events {
   padding:0;
    text-align: center;
-   background-image: url('../images/blue-guitar.png');
+   background-image: url('https://res.cloudinary.com/dgsqmdssi/image/upload/v1565017955/Amanda/blue-guitar_yrgz8q.png');
    background-attachment: fixed;
    background-repeat: no-repeat;
    background-size: cover;
@@ -806,13 +810,13 @@ font-family: 'Marck Script', cursive;
   }
   
   .events-heading {
-   background-color: #12A4B7;
+   background-color: #171B8F;
    color: #fff;
    padding: 10px 0;
   }
   
   .table-events {
-   background-color: rgba(18,164,184, 0.5);
+   background-color: rgba(23, 27, 143, 0.5);
    vertical-align: middle;
   }
   
@@ -825,11 +829,16 @@ font-family: 'Marck Script', cursive;
    font-size: 20px;
    text-transform: uppercase;
    margin-bottom: 2px;
+   background-color: #CC5500;
   }
   
   
   .table .date {
    color: #fff;
+  }
+  .date i {
+    color: #CC5500;
+    font-size: x-large;
   }
   
   .table td,
@@ -839,7 +848,7 @@ font-family: 'Marck Script', cursive;
   
   .table button {
    color: #fff;
-   border: 2px solid #12A4B7;
+   border: 2px solid #CC5500;
    font-family: 'Oswald', sans-serif;
    font-weight: 700;
    text-transform: uppercase;
@@ -863,11 +872,14 @@ font-family: 'Marck Script', cursive;
     font-weight: 400;
    }
   }
-  
+  .btn-outline-dark:hover {
+    background-color: #CC5500;
+    border-color: #fff;
+  }
   /* ------------------------------------------------------------------News */
   
   .news {
-   background-image: url('../images/yours_forever.png');
+   background-image: url('https://res.cloudinary.com/dgsqmdssi/image/upload/v1565032743/Amanda/newspapers_dn1egh.jpg');
    background-attachment: fixed;
    background-repeat: no-repeat;
    background-size: cover;
@@ -878,7 +890,7 @@ font-family: 'Marck Script', cursive;
   }
   
   .news-heading {
-   background-color: #B72512;
+   background-color: #EFC157;
    color: #fff;
    padding: 10px 0;
    margin-bottom: 25px;
@@ -888,16 +900,20 @@ font-family: 'Marck Script', cursive;
      margin-bottom: 15px;
    }
   .card-body {
-   color: #B72512;
+   color: #171B8F;
   }
   
   .card img {
-   height: 150px;
+   height: 180px;
   }
   
   .btn-red {
-   color: #B72512;
-   border-color: #B72512;
+   color: #EFC157;
+   border-color: #171B8F;
+  }
+  .btn:hover {
+    background-color: #EFC157;
+    border-color: #171B8F;
   }
   
   /* ------------------------------------------------------------------Contact Modal */
@@ -924,7 +940,7 @@ font-family: 'Marck Script', cursive;
    font-family: 'Righteous', cursive;
    font-weight: 700;
    font-size: 48px;
-   color: #0300CC;
+   color: #171B8F;
    margin: auto;
   }
   
@@ -970,9 +986,14 @@ font-family: 'Marck Script', cursive;
    -ms-flex-negative: none;
        flex-shrink: none;
    background-color: #cc5500;
-   color: #fff;
-   margin-top: 25px;
+   color: #fff;   
+   height: 50px;
+   padding-top: 15px;
   }
+  #sticky-footer a {
+   color: #fff;   
+  text-decoration: none;
+   }
   
   #sticky-footer span {
    padding: 50px 15px;
