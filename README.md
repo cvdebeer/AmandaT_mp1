@@ -53,7 +53,8 @@ Using Balsamiq [Here's My Mockup](https://github.com/cvdebeer/AmandaT_mp1/blob/m
 ***Git*** ~ <https://git-scm.com/>~ Used to commit to local repository and further push to Github Repo ensuring version controlling of the project build. Originally used through Cloud9 and then downloaded to use in VScode.  
 ***Github*** ~ <https://github.com/>~ Used to host the deployed website and repository of all previous versions of the build.  
 ***Google Chrome Developer Tools*** ~ Used as the core testing mechanism throughout the project build to see what the repsonsiveness accross all devices.  
-***ColorRules*** ~ <https://apps.apple.com/ca/app/colorrules/id1198369052> (Colour Picker) ~ Application used to obtain hexadecimal/rgba/hsl values of colours. It provides different varations of colour choices depending on the base colour you select.
+***ColorRules*** ~ <https://apps.apple.com/ca/app/colorrules/id1198369052> (Colour Picker) ~ Application used to obtain hexadecimal/rgba/hsl values of colours. It provides different varations of colour choices depending on the base colour you select.  
+***Colormind*** ~ <http://colormind.io/bootstrap/> For extra  help on colouring my website.  
 ***Balsamiq*** ~ <https://balsamiq.com/>~ Used for the Creation of my initial Wireframes for my project.  
 ***Pix-resizer*** ~ <https://pixresizer.windows10compatible.com/> ~ Programme used to make my images smaller without losing the aspect ratio.  
 ***Any Video converter*** ~ <https://www.any-video-converter.com/> ~ Used to change video into audio files.  
