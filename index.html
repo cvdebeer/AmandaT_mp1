@@ -40,47 +40,39 @@
         </div>
 
         <!-- NAVBAR -->
-        <div class="container-fluid nav-top">
-            <nav class="navbar navbar-expand-lg navbar-light nav-text" id="nav-scroll">
-                <a class="navbar-brand" href="#home"><img src="assets/images/songbird_white.png" alt="logo" /></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="burger_icon"><i class="fas fa-bars"></i></span>
-                </button>
-                 <div class="collapse navbar-collapse navstyle" id="navbarNav">
-                     <div class="tip d-lg-none">
-                     <small>Please select link and then close the navigation pane to go the location</small>
-                     </div>
-                     <div class="pic d-lg-none"><img src="assets/images/amanda_3.jpg" alt="amanda"></div>
-                    <div class="nav-text uppercase">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active hover-home">
-                                <a class="nav-link hvr-sweep-to-top"  href="#home" ><i class="fas fa-home"
-                                        aria-hidden="true"></i><span>Home</span><span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item hover-music">
-                                <a class="nav-link hvr-sweep-to-top"  href="#music" ><i                         class="fas fa-music" aria-hidden="true"></i><span>Music</span></a>
-                            </li>
-                            <li class="nav-item hover-events" >
-                                <a class="nav-link hvr-sweep-to-top"  href="#events" ><i class="far fa-calendar-alt"
-                                        aria-hidden="true"></i><span>Events</span></a>
-                            </li>
-                            <li class="nav-item hover-news">
-                                <a class="nav-link hvr-sweep-to-top"  href="#news" ><i
-                                        class="far fa-newspaper" aria-hidden="true"></i><span>News</span></a>
-                            </li>
-                            <li class="nav-item hover-contact">
-                                <a class="nav-link hvr-sweep-to-top " data-toggle="modal" data-target="#getintouch" href="#getintouch"  aria-expanded="false"><i class="fas fa-phone"
-                                        aria-hidden="true"></i><span>Contact</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col inline d-lg-none social-links-sm">
-                        <i class="fab fa-facebook"></i>
-                        <i class="fab fa-youtube"></i>
-                        <i class="fab fa-instagram"></i>
-                    </div>
+        <div class="container-fluid nav-top navbar-expand-lg">
+            <a class="navbar-brand" href="#home"><img src="assets/images/songbird_white.png" alt="logo" /></a>
+        <a href="#main-menu" id="main-menu-toggle"  class="menu-toggle" aria-label="Open main menu"><span class="sr-only">Open main menu</span><span class="fa fa-bars" aria-hidden="true"></span></a>       
+     <nav id="main-menu" class="main-menu" aria-label="Main menu">   
+       <a href="#main-menu-toggle" id="main-menu-close"  class="menu-close" aria-label="Close main menu"><span class="sr-only">Close main menu</span><span class="fas fa-times" aria-hidden="true"></span></a>
+        <div class="nav-text uppercase">
+         
+        <ul class="navbar-nav">
+                <div class="pic d-lg-none"><img src="assets/images/amanda_3.jpg" alt="amanda"></div>
+            <li class="nav-item active hover-home">
+                <a class="nav-link hvr-sweep-to-top"  href="#home" ><i class="fas fa-home"
+                        aria-hidden="true"></i><span>Home</span><span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item hover-music">
+                <a class="nav-link hvr-sweep-to-top"  href="#music" ><i                         class="fas fa-music" aria-hidden="true"></i><span>Music</span></a>
+            </li>
+            <li class="nav-item hover-events" >
+                <a class="nav-link hvr-sweep-to-top"  href="#events" ><i class="far fa-calendar-alt"
+                        aria-hidden="true"></i><span>Events</span></a>
+            </li>
+            <li class="nav-item hover-news">
+                <a class="nav-link hvr-sweep-to-top"  href="#news" ><i
+                        class="far fa-newspaper" aria-hidden="true"></i><span>News</span></a>
+            </li>
+            <li class="nav-item hover-contact">
+                <a class="nav-link hvr-sweep-to-top " data-toggle="modal" data-target="#getintouch" href="#getintouch"  aria-expanded="false"><i class="fas fa-phone"
+                        aria-hidden="true"></i><span>Contact</span></a>
+            </li>
+            <div class="col inline d-lg-none social-links-sm">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-instagram"></i>
                 </div>
         </ul>
     </div>
@@ -103,7 +95,7 @@
 <div class="spacing"></div>
         <section class="about" id="home">
             <br>
-            <h2 class="about-home">About Me</h2>
+            <h2 class="about-home"></h2>
             <div class="container-fluid cover">
                 <div class="row no-gutters align-items-center">
                     <div class="col-12 col-md-8 ">
@@ -204,48 +196,49 @@
             </div>
             <hr class="mh-rule">
 
-            <div class="container original-music">
-                <div class="row no-gutters align-items-center justify-content-around">
-                    <div class="col-12 col-md-5 col-lg-3 play ">
-                        <div class="plyr__video-embed player" >
+            <div class="container-fluid original-music align-items-center">
+                <div class="row no-gutters justify-content-around">
+                    <div class="col-12 col-md-5 col-lg-3 play">
+                        <div class="plyr__video-embed" >
                             <iframe src="https://www.youtube.com/embed/ybEH7vj4NLw" allowfullscreen
                                 allow="autoplay"></iframe>
                         </div>
+
                     </div>
+
                     <div class="col-12 col-md-5 col-lg-3 play ">
-                        <div class="plyr__video-embed player" >
+                        <div class="plyr__video-embed" >
                             <iframe src="https://www.youtube.com/embed/GvWxDH4wDho" allowfullscreen
                                 allow="autoplay"></iframe>
                         </div>
                     </div>
                     <div class="col-12 col-md-5 col-lg-3 play">
-                        <div class="plyr__video-embed player">
+                        <div class="plyr__video-embed">
                             <iframe src="https://www.youtube.com/embed/Sb25lgoaZiA " allowfullscreen
                                 allow="autoplay"></iframe>
                         </div>
                     </div>
                     <div class="col-12 col-md-5 col-lg-3 play">
-                        <div class="plyr__video-embed player" >
+                        <div class="plyr__video-embed" >
                             <iframe src="https://www.youtube.com/embed/cGmRGlicpMQ" allowfullscreen
                             allow="autoplay"></iframe>
                         </div>
                     </div>
                     <div class="col-12 col-md-5 col-lg-3 play">
-                        <div class="plyr__video-embed player">
+                        <div class="plyr__video-embed">
                             <iframe src="https://www.youtube.com/embed/3twSGtyMuVc" allowfullscreen
                                 allow="autoplay"></iframe>
                         </div>
                     </div>
                     <div class="col-12 col-md-5 col-lg-3 play">
-                        <div class="plyr__video-embed player" >
+                        <div class="plyr__video-embed" >
                             <iframe src="https://www.youtube.com/embed/PnUTwybJpPI" allowfullscreen 
                                 allow="autoplay"></iframe>
                         </div>
                     </div>
                 </div>
             </div>
-<br>
-<br>
+
             <hr class="mh-rule ">
             <div class="cover-songs ">
                 <h2><span class="og ">A selection of Cover Songs</span></h2>
@@ -253,11 +246,11 @@
             <hr class="mh-rule ">
 
             <div class="container-fluid cover-music">
-                <div class="row no-gutters align-items-center">
-                    <div class="col-12 justify-content-center">
+                <div class="row no-gutters justify-content-sm-center">
+                    <div class="col-12 ">
                         <div class="audio-box">
-                            <div class="row no-gutters align-items-center">
-                                <div class="col-4  album_cover justify-content-center">
+                            <div class="row no-gutters">
+                                <div class="col-4  album_cover align-self-center">
                                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                         <div class="flipper">
                                             <div class="front">
@@ -265,16 +258,17 @@
                                                     <img src="assets/images/am-ironic.jpg" alt="Jagged little pill cover">
                                                 </div>
                                             </div>
-                                            <div class="back ">
+                                            <div class="back align-items-center">
                                                     <div class="cover-originals">
-                                               <a class="go-to-original" href="https://www.youtube.com/watch?v=Jne9t8sHpUc" target="_blank"><span>Click here to <br>go to the original track</span></a>
-                                                     </div>  
-                                            </div>
+                                               <a class="btn go-to-original"
+                                                            href="https://www.youtube.com/watch?v=Jne9t8sHpUc" target="_blank">Click
+                                                            here to go to the original track</a>
+                                                        </div>                                                        </div>
                                         </div>
                                     </div>
 
                                 </div>
-                                <div class="col-8 justify-content-center">
+                                <div class="col-8 align-self-center">
                                     <div class="audio-box-body">
                                         <h5 class="audio-box-title">Cover Of Alanis Morisette's - Ironic</h5>
                                         <audio controls>
@@ -286,8 +280,8 @@
                             </div>
                         </div>
                         <div class="audio-box">
-                            <div class="row no-gutters align-items-center">
-                                <div class="col-4 align-self-center justify-content-center album_cover">
+                            <div class="row no-gutters align-items-center justify-content-md-center">
+                                <div class="col-4 align-self-center album_cover">
                                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                         <div class="flipper">
                                             <div class="front">
@@ -295,11 +289,11 @@
                                                     <img src="assets/images/City_of_angels_(album_cover).jpg" alt="City of Angels">
                                                 </div>
                                             </div>
-                                            <div class="back ">
+                                            <div class="back align-items-center">
                                                 <div class="cover-originals">
-                                                    <a class="go-to-original"
+                                                    <a class="btn go-to-original"
                                                             href="https://www.youtube.com/watch?v=NdYWuo9OFAw" target="_blank">Click
-                                                            here to <br>go to the original
+                                                            here to go to the original
                                                             track</a>
                                                 </div> <!-- back content -->
                                             </div>
@@ -308,7 +302,7 @@
                                 </div>
 
 
-                                <div class="col-8 justify-content-center">
+                                <div class="col-8 align-self-center">
                                     <div class="audio-box-body">
                                         <h5 class="audio-box-title">Cover Of The Goo Goo dolls - Iris</h5>
                                         <audio controls>
@@ -320,8 +314,8 @@
                             </div>
                         </div>
                         <div class="audio-box">
-                            <div class="row no-gutters  align-items-center ">
-                                <div class="col-4 album_cover justify-content-center">
+                            <div class="row no-gutters  align-items-center justify-content-md-center">
+                                <div class="col-4 album_cover align-self-center">
                                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                         <div class="flipper">
                                             <div class="front">
@@ -329,18 +323,18 @@
                                                     <img src="assets/images/Come_Together-Something.jpg" alt="Beatles cover">
                                                 </div>
                                             </div>
-                                            <div class="back">
+                                            <div class="back back align-items-center">
                                                 <div class="cover-originals">
-                                                   <a class="go-to-original"
+                                                   <a class="btn go-to-original"
                                                             href="https://www.youtube.com/watch?v=45cYwDMibGo" target="_blank">Click
-                                                            here to<br> go to the original
+                                                            here to go to the original
                                                             track</a>
                                                 </div> <!-- back content -->
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-8 justify-content-center">
+                                <div class="col-8 align-self-center">
                                     <div class="audio-box-body">
                                         <h5 class="audio-box-title">Cover Of The Beatles - Come Together</h5>
                                         <audio controls>
@@ -419,7 +413,7 @@
                                                     <p class="card-text">Had a chance to play on the morning show of
                                                         NewzRoom Afrika. This is a snippet of my original song recorded
                                                         last week</p>
-                                                    <a href="assets/music/Butterfly wings Rough Mix.mp3" target="_blank" class="btn btn-red">Go to full track</a>
+                                                    <a href="#" class="btn btn-red">Go to full track</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -430,7 +424,7 @@
                                                     <h5 class="card-title">19 July 2019</h5>
                                                     <p class="card-text">Just finished recording my first song...Woohoo.
                                                     </p>
-                                                    <a href="assets/images/Butterfly_wings.jpg" target="_blank" class="btn btn-red">Check out the lyrics</a>
+                                                    <a href="#" class="btn btn-red">Check out the lyrics</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -454,19 +448,18 @@
                     <hr class="mh-rule">
                     <div class="modal-body">
 
-                        <form class="needs-validation" >
-                            <h4>Your Details:</h4>
+                        <form>
+                            <h4>Your Details</h4>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="fullname" placeholder="Full Name" required data-toggle="tooltip" data-placement="top" title="Please enter your name to continue.">
-                                
+
+                                <input type="text" class="form-control" id="fullname" placeholder="Full Name">
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" id="email" placeholder="Email" required  data-toggle="tooltip" data-placement="top" title="Please enter a valid email address.">                                
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> 
+                                <input type="email" class="form-control" id="email" placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <input type="tel" pattern='^\+?\d{0,13}' class="form-control" id="phoneNumber" placeholder="Telephone Number" required data-toggle="tooltip" data-placement="top" title="Please enter a valid Telephone number"> 
-                                
+
+                                <input type="text" class="form-control" id="telephone" placeholder="Telephone Number">
                             </div>
                             <div class="form-group">
                                 <h4>I am interested in:</h4>
@@ -491,7 +484,7 @@
                                 </div>
                             </div>
                             <div class="snd-btn">
-                            <button type="submit" class="btn btn-send">Send</button>
+                            <button type="button" class="btn btn-send">Send</button>
                         </div>
                         </form>
                     </div>
