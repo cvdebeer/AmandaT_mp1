@@ -15,21 +15,21 @@
     <link rel="icon" href="assets/images/songbird.ico" type="image/png" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-    <title>Amanda T.</title>
+    <title>Amanda</title>
 </head>
 
 <body data-spy="scroll" data-target="#nav-scroll">
     <header>
         <!-- Main page header-->
         <div class="container-fluid fixed-top heading">
-            <div class="row at-head">
+            <div class="row no-gutters at-head">
                 <div class="col col-md-2 d-none d-sm-none d-md-block sm-links">
                     <i class="fab fa-facebook"></i>
                     <i class="fab fa-youtube"></i>
                     <i class="fab fa-instagram"></i>
                 </div>
                 <div class="col col-md-7 title">
-                    <h1 class="amanda">Amanda T.<span class="subtitle"><sup> singer - songwriter</sup></span></h1>
+                    <h1 class="amanda">Amanda<span class="subtitle"><sup> singer - songwriter</sup></span></h1>
                 </div>
                 <div class="col col-md-3 d-none d-sm-none d-md-block in-touch">
                     <button type="button" class="btn go-btn in-touch hvr-sweep-to-right uppercase"
@@ -40,62 +40,51 @@
         </div>
 
         <!-- NAVBAR -->
-        
-        <a href="#main-menu"
-
-        id="main-menu-toggle"
-   
-        class="menu-toggle"
-   
-        aria-label="Open main menu">
-   
-       <span class="sr-only">Open main menu</span>
-   
-       <span class="fa fa-bars" aria-hidden="true"></span>
-   
-     </a>
-   
-     
-   
-     <h1 class="logo">hamburgers</h1>
-   
-     
-   
-     <nav id="main-menu" class="main-menu" aria-label="Main menu">
-   
-       <a href="#main-menu-toggle"
-   
-          id="main-menu-close"
-   
-          class="menu-close"
-   
-          aria-label="Close main menu">
-   
-         <span class="sr-only">Close main menu</span>
-   
-         <span class="fa fa-close" aria-hidden="true"></span>
-   
-       </a>
-   
-       <ul>
-   
-         <li><a href="#">Products</a></li>
-   
-         <li><a href="#">About</a></li>
-   
-         <li><a href="#">Contact</a></li>
-   
-       </ul>
-   
+        <div class="container-fluid nav-top navbar-expand-lg">
+            <a class="navbar-brand" href="#home"><img src="assets/images/songbird_white.png" alt="logo" /></a>
+        <a href="#main-menu" id="main-menu-toggle"  class="menu-toggle" aria-label="Open main menu"><span class="sr-only">Open main menu</span><span class="fa fa-bars" aria-hidden="true"></span></a>       
+     <nav id="main-menu" class="main-menu" aria-label="Main menu">   
+       <a href="#main-menu-toggle" id="main-menu-close"  class="menu-close" aria-label="Close main menu"><span class="sr-only">Close main menu</span><span class="fas fa-times" aria-hidden="true"></span></a>
+        <div class="nav-text uppercase">
+         
+        <ul class="navbar-nav">
+                <div class="pic d-lg-none"><img src="assets/images/amanda_3.jpg" alt="amanda"></div>
+            <li class="nav-item active hover-home">
+                <a class="nav-link hvr-sweep-to-top"  href="#home" ><i class="fas fa-home"
+                        aria-hidden="true"></i><span>Home</span><span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item hover-music">
+                <a class="nav-link hvr-sweep-to-top"  href="#music" ><i                         class="fas fa-music" aria-hidden="true"></i><span>Music</span></a>
+            </li>
+            <li class="nav-item hover-events" >
+                <a class="nav-link hvr-sweep-to-top"  href="#events" ><i class="far fa-calendar-alt"
+                        aria-hidden="true"></i><span>Events</span></a>
+            </li>
+            <li class="nav-item hover-news">
+                <a class="nav-link hvr-sweep-to-top"  href="#news" ><i
+                        class="far fa-newspaper" aria-hidden="true"></i><span>News</span></a>
+            </li>
+            <li class="nav-item hover-contact">
+                <a class="nav-link hvr-sweep-to-top " data-toggle="modal" data-target="#getintouch" href="#getintouch"  aria-expanded="false"><i class="fas fa-phone"
+                        aria-hidden="true"></i><span>Contact</span></a>
+            </li>
+            <div class="col inline d-lg-none social-links-sm">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+        </ul>
+    </div>
+    
      </nav>
    
-     <a href="#main-menu-toggle"
-   
-        class="backdrop"
+     <a href="#main-menu-toggle"        class="backdrop"
    
         tabindex="-1"
    
         aria-hidden="true" hidden></a>
+    </div>
         
     </header>
 
@@ -103,7 +92,7 @@
 
     <main>
 
-
+<div class="spacing"></div>
         <section class="about" id="home">
             <br>
             <h2 class="about-home"></h2>
@@ -207,8 +196,8 @@
             </div>
             <hr class="mh-rule">
 
-            <div class="container original-music align-items-center">
-                <div class="row  align-items-center justify-content-around">
+            <div class="container-fluid original-music align-items-center">
+                <div class="row no-gutters justify-content-around">
                     <div class="col-12 col-md-5 col-lg-3 play">
                         <div class="plyr__video-embed" >
                             <iframe src="https://www.youtube.com/embed/ybEH7vj4NLw" allowfullscreen
@@ -511,7 +500,7 @@
         </div>
 
         <footer id="sticky-footer">
-            <div class="container text-center">
+            <div class="container-fluid text-center">
                 <span><img src="assets/images/songbird_white.png" alt="songbird"></span>
                 <small>Copyright &copy; 2019 Claudia De Beer</small>
                 <span>|</span>

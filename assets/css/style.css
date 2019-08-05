@@ -24,8 +24,8 @@ font-family: 'Marck Script', cursive;
     text-align: center;
   }
     body {
-      position: relative;
-   margin-top: 100px;
+  position: relative;
+   margin-top: 45px;
    padding: 0;
   text-align: center;
   
@@ -64,6 +64,7 @@ font-family: 'Marck Script', cursive;
   
   .title .amanda {
    padding: 0;
+   margin: 0;
    font-family: 'Righteous', cursive;
    font-weight: 600;
    color: #0077CC;
@@ -77,7 +78,7 @@ font-family: 'Marck Script', cursive;
   }
   
   .in-touch {
-   padding: 5px;
+   padding: 4px;
    text-align: right;
    margin-right: -15px;
   
@@ -91,9 +92,7 @@ font-family: 'Marck Script', cursive;
    background-color: #CC5500;
    border-color: #CC5500;
    font-family: 'Oswald', sans-serif;
-   margin-top: 5px;
-   margin-right: 40px;
-  
+   margin: 5px 40px 5px 
   }
   
   .uppercase {
@@ -103,54 +102,31 @@ font-family: 'Marck Script', cursive;
   /* Screen reader only */
 
 .sr-only {
-
   position: absolute;
-
   width: 1px;
-
   height: 1px;
-
   padding: 0;
-
   margin: -1px;
-
   overflow: hidden;
-
   clip: rect(0,0,0,0);
-
   border: 0;
-
 }
-
-
 
 /* Button styling */
 
 .menu-toggle {
-
-  display: inline-block;
-
+   float: right;
+  margin-right: 30px;
   padding: .75em 15px;
-
   line-height: 1em;
-
   font-size: 1em;
-
-  color: #333;
-
+  background-color: #CC5500;
+  color: #fff;
 }
-
-
-
 .menu-toggle:hover,
-
 .menu-toggle:focus {
-
-  color: #c00;
-
+  color: #ccb4a3;
 }
-
-
 
 /*
 
@@ -161,182 +137,41 @@ font-family: 'Marck Script', cursive;
 */
 
 .main-menu {
-
   position: absolute;
-
   display: none;
-
-  left: -200px;
-
   top: 0;
-
   height: 100%;
-
   overflow-y: scroll;
-
   overflow-x: visible;
-
   transition: left 0.3s ease,
-
     	box-shadow 0.3s ease;
-
   z-index: 999;
-
 }
-
-
-
+@media (max-width:991px) {
 .main-menu ul {
-
   list-style: none;
-
   margin: 0;
-
   padding: 2.5em 0 0;
-
-  /* Hide shadow w/ -8px while 'closed' */
-
-  -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
-
-     -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
-
-          box-shadow: -8px 0 8px rgba(0,0,0,.5);
-
-  min-height: 100%;
-
-  width: 200px;
-
-  background: #1a1a1a;
-
+ height:  100vh;
+  width: 100vw;
+  background: #CC5500;
 }
-
-
-
+}
 .main-menu a {
-
   display: block;
-
   padding: .75em 15px;
-
   line-height: 1em;
-
   font-size: 1em;
-
   color: #fff;
-
   text-decoration: none;
-
-  border-bottom: 1px solid #383838;
-
 }
-
-
-
-.main-menu li:first-child a {
-
-  border-top: 1px solid #383838;
-
-}
-
-
-
-.main-menu a:hover,
-
-.main-menu a:focus {
-
-  background: #333;
-
-  text-decoration: underline;
-
-}
-
-
 
 .main-menu .menu-close {
-
   position: absolute;
-
   right: 0;
-
   top: 0;
-
 }
 
-
-
-
-
-/*
-
- More to come here...
-
-*/
-
-
-
-
-
-/*
-
- Demo purposes only
-
-*/
-
-*,
-
-*:before,
-
-*:after {
-
-  box-sizing: border-box;
-
-}
-
-
-
-header {
-
-  padding: 20px;
-
-  display: flex;
-
-  align-items: baseline;
-
-}
-
-
-
-article {
-
-  padding: 30px;
-
-  width: 55em;
-
-  font-size: 16px;
-
-  line-height: 1.5em;
-
-}
-
-
-
-article h2 {
-
-  font-weight: 500;
-
-  font-size: 28px;
-
-}
-
-
-
-.logo {
-
-  margin: 0 30px 0 10px;
-
-  font-size: 1.5em;
-
-}
 /*
 
  On small devices, allow it to toggle...
@@ -352,46 +187,23 @@ article h2 {
 */
 
 .main-menu:target,
-
 .main-menu[aria-expanded="true"] {
-
   display: block;
-
   left: 0;
-
   outline: none;
-
   -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
-
   -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
-
   box-shadow: 3px 0 12px rgba(0,0,0,.25);
-
 }
-
-
-
 .main-menu:target .menu-close,
-
 .main-menu[aria-expanded="true"] .menu-close {
-
   z-index: 1001;
-
 }
-
-
-
 .main-menu:target ul,
-
 .main-menu[aria-expanded="true"] ul {
-
   position: relative;
-
   z-index: 1000;
-
 }
-
-
 
 /* 
 
@@ -400,47 +212,26 @@ article h2 {
  it wouldn't be clickable.
 
 */
-
 .main-menu:target + .backdrop,
-
 .main-menu[aria-expanded="true"] + .backdrop{
-
   position: absolute;
-
   display: block;  
-
   left: 0;
-
   top: 0;
-
   width: 100%;
-
   height: 100%;
-
   z-index: 998;
-
-  background: #000;
-
-  background: rgba(0,0,0,.85);
-
+  background: #CC5500;
+  background: rgba(204,85,0,0);
   cursor: default;
-
 }
 
-
-
 @supports (position: fixed) {
-
   .main-menu,
-
   .main-menu:target + .backdrop,
-
   .main-menu[aria-expanded="true"] + .backdrop{
-
     position: fixed;
-
   }
-
 }
 /*
 
@@ -450,99 +241,66 @@ article h2 {
 
 */
 
-@media (min-width: 768px) {
-
+@media (min-width: 992px) {
   .menu-toggle,
-
   .main-menu .menu-close {
-
     display: none;
-
   }
 
-  
 
   /* Undo positioning of off-canvas menu */
 
   .main-menu {
-
     position: relative;
-
 		left: auto;
-
 		top: auto;
-
 		height: auto;
-
     display: block;
-
   }
 
-  
-
   .main-menu ul {
-
-    display: flex;
-
-    
+    display: inline-flex;   
 
     /* Undo off-canvas styling */
 
     padding: 0;
-
     -webkit-box-shadow: none;
-
        -moz-box-shadow: none;
-
             box-shadow: none;
-
     height: auto;
-
     width: auto;
-
     background: none;
-
   }
 
-  
-
-  .main-menu a {
-
+   .main-menu a {
     color: #06c;
-
     border: 0 !important; /* Remove borders from off-canvas styling */
-
   }
-
-  
-
   .main-menu a:hover,
-
   .main-menu a:focus {
-
     background: none; /* Remove background from off-canvas styling */
-
     color: #c00;
-
   }
-
 }
 
 
-}
+
   /* -----------------------------------------------------------Navbar */
-  /*
+  
   .heading {
    background-color: #fff;
-   z-index: 99
+   z-index: 99;
+   padding: 0;
   }
+  
   .navbar-brand img {
     height: 30px;
     width: 30px;
   }
+ 
   .nav-top {
-   padding: 0;
-   margin-top: -50px;
+   padding: 0;  
+   margin: 0;
    position: fixed;
    background-color: #CC5500;
    z-index: 100;
@@ -551,8 +309,7 @@ article h2 {
   
   .nav-text {
    margin: auto;
-   padding-left: 15px;
-    font-family: 'Oswald', sans-serif;
+   font-family: 'Oswald', sans-serif;
    text-align: center;
    background-color: #CC5500;
   }
@@ -574,64 +331,61 @@ article h2 {
    }
   .navbar-toggler {
    border: 1px solid rgb(255, 255, 255);
-  }
-  
-  .navstyle {
-   margin-left: -65px;
-  }
+   }
+
   .nav-item {
-   padding: 10px;
-  }
-  .navbar-light .navbar-toggler {
-   border-color: rgba(0,0,0,0);
-  }
-  .nav-item span {
-   display: block;
-   width: 100%;
-   padding: 0 15px;
-   text-align: center;
-   font-size: 15px;
-   font-weight: 400;
-   letter-spacing: 3px;
-   color: #fff;
-  }
+    padding: 10px;
+   }
+   .nav-item a i {
+    display: block;
+    text-align: center;
+    color: #fff;   
+   }
+   .navbar-brand {
+     float: left;
+     margin-left: 15px;
+   }
+   @media (max-width:767px) {
+    .pic img {
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     
+    }
+   }
+   
+   @media (min-width:768px) and (max-width: 991px) {
+    .pic img {
+     height: 250px;
+     width: 250px;
+     border-radius: 50%;
+     margin: 5px;
+     
+    }
+   }
+
   @media (max-width: 991px){
   .nav-item span {
     display: inline;
-    width: 100%;
-    padding: 0 15px;
+    padding: 15px;
     text-align: center;
     font-size: 25px;
     font-weight: 400;
     letter-spacing: 3px;
     color: #fff;
    }
+   .nav-item {
+     padding: 15px;     
+   }
+   
   }
+  .nav-item .sr-only {
+    padding: 0;
+   }
 
-  .nav-item a i {
-   display: block;
-   text-align: center;
-   color: #fff;
-  
-  }
-  
-  .nav-link .contact-btn {
-   display: block;
-   width: 100%;
-   padding: 0 7px;
-   text-align: center;
-   font-size: 15px;
-   font-weight: 400;
-   letter-spacing: 3px;
-   color: #fff;
-   text-transform: uppercase;
-  }
-  
-  
   
   .burger_icon {
-   color: #fff;
-  
+   color: #fff;  
   }
   
   @media (max-width:991px) {
@@ -653,47 +407,18 @@ article h2 {
     padding: 10px; 
    
    }
-   .nav-link .contact-btn {
-    display: inline;
-    font-size: 25px;
-    width: 30%;
-   padding: 0;
-   }
-   .social-links-sm i {
+    .social-links-sm i {
      font-size: x-large;
      padding: 30px 10px;
    }
-  }
-  
-  @media (max-width:767px) {
-   .pic img {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin: 50px;
-   }
-  }
-  
-  @media (min-width:768px) and (max-width: 991px) {
-   .pic img {
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    margin: 50px;
-   }
-   .nav-link .contact-btn {
-     width: 17%; 
-   }
-  }
-  
+  } 
   .social-links-sm {
    color: #fff;
-  }
-  
-  
+  }  
   @media (min-width:768px) and (max-width: 991px) {
    .nav-item span {
     font-size: 30px;
+    display: inline;
   }
    }
   
@@ -702,19 +427,47 @@ article h2 {
      font-size: 30px;
     }
    }
-   .inline {
-    display: inline;
-   }
-  
+    
    @media (min-width:768px) and (max-width: 991px) {
     .nav-text {
      font-size: 32px;
      letter-spacing: 3px;
     }
    }
+   @media (min-width: 992px){
+    .nav-item span {
+     display: inline;
+     padding: 0 15px;
+     text-align: center;
+     font-size: 15px;
+     font-weight: 400;
+     letter-spacing: 3px;
+     color: #fff;
+    }   
+    .main-menu ul {
+      height: 50px;
+    }
+    .navbar-nav li {
+      margin: auto;
+      padding: 0;    
+    }
+    .navbar-brand img {
+      margin-top: 7.5px;
+    }
+  }
+
+
   
-  */
    /* --------------------------------------------------------------About me */
+
+   .spacing {
+     height: 40px;
+   }
+   @media (max-width: 567px){
+    .spacing {
+      height: 10px;
+    }
+  }
    .about {
     background-image: url('../images/fence-guitar.png');
     background-attachment: fixed;
@@ -805,10 +558,8 @@ article h2 {
    padding: 5px;
    
   }
-  @media (max-width: 767px) {
-    #player iframe {
-      width:90%;
-    }
+  .plyr__video-embed iframe, .plyr__video-wrapper--fixed-ratio video {
+    width: 90%;
   }
   
   /* ----------------------------------------------------------------------------------Audio */
