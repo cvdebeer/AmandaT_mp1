@@ -351,6 +351,7 @@ font-family: 'Marck Script', cursive;
      height: 100px;
      width: 100px;
      border-radius: 50%;
+     margin: 25px;
      
     }
    }
@@ -413,9 +414,15 @@ font-family: 'Marck Script', cursive;
      padding: 30px 10px;
    }
   } 
-  .social-links-sm {
-   color: #fff;
+  .social-links-sm .fa-facebook{
+   color: #3b5998;
   }  
+  .social-links-sm .fa-youtube{
+    color: #c4302b;
+   }  
+   .social-links-sm .fa-instgram{
+    color: #3f729b ;
+   }
   @media (min-width:768px) and (max-width: 991px) {
    .nav-item span {
     font-size: 30px;
@@ -452,6 +459,7 @@ font-family: 'Marck Script', cursive;
       margin: auto;
       padding: 0;    
     }
+    
     .navbar-brand img {
       margin-top: 7.5px;
     }
