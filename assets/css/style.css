@@ -469,6 +469,9 @@ font-family: 'Marck Script', cursive;
       height: 10px;
     }
   }
+  .about-home {
+    color: transparent;
+  }
    .about {
     background-image: url('../images/fence-guitar.png');
     background-attachment: fixed;
@@ -547,8 +550,27 @@ font-family: 'Marck Script', cursive;
   }
   
   .original-music .play {
-  margin: 2.5% 1px;
-  
+    margin: 10px 20px; 
+  }
+  @media (max-width: 767px) {
+    .original-music .play {
+      margin: 1px; 
+      }
+  }
+  @media (max-width: 991px) {
+    .original-music .play {
+      margin: 10px 20px; 
+    }     
+  }
+  @media (min-width:992px) {
+    .original-music .play {
+      margin: 20px 30px; 
+      }
+    .player {
+        height: 150%;
+       width: auto;
+      }
+
   }
   .play iframe {
    border-color: rgba(37, 184, 95,0.8);
@@ -560,6 +582,7 @@ font-family: 'Marck Script', cursive;
    mask-image: radial-gradient(white, black);
    -webkit-mask-image: -webkit-radial-gradient(white, black);
   }
+
   .plyr__video-embed iframe, .plyr__video-wrapper--fixed-ratio video {
     width: 90%;
   }
