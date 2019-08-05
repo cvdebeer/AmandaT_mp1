@@ -832,6 +832,11 @@ font-family: 'Marck Script', cursive;
    text-align: left;
   }
   
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"]:invalid {
+    border: 2px solid red;
+  }
   .modal-header {
    margin: auto;
    border: none;

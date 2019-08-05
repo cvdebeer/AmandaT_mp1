@@ -413,7 +413,7 @@
                                                     <p class="card-text">Had a chance to play on the morning show of
                                                         NewzRoom Afrika. This is a snippet of my original song recorded
                                                         last week</p>
-                                                    <a href="#" class="btn btn-red">Go to full track</a>
+                                                    <a href="assets/music/Butterfly wings Rough Mix.mp3" target="_blank" class="btn btn-red">Go to full track</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -424,7 +424,7 @@
                                                     <h5 class="card-title">19 July 2019</h5>
                                                     <p class="card-text">Just finished recording my first song...Woohoo.
                                                     </p>
-                                                    <a href="#" class="btn btn-red">Check out the lyrics</a>
+                                                    <a href="assets/images/Butterfly_wings.jpg" target="_blank" class="btn btn-red">Check out the lyrics</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -448,18 +448,17 @@
                     <hr class="mh-rule">
                     <div class="modal-body">
 
-                        <form>
+                            <form class="needs-validation" >
                             <h4>Your Details</h4>
                             <div class="form-group">
-
-                                <input type="text" class="form-control" id="fullname" placeholder="Full Name">
+                                <input type="text" class="form-control" id="fullname" placeholder="Full Name" required data-toggle="tooltip" data-placement="top" title="Please enter your name to continue.">
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" id="email" placeholder="Email">
+                                    <input type="email" class="form-control" id="email" placeholder="Email" required  data-toggle="tooltip" data-placement="top" title="Please enter a valid email address.">                                
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> 
                             </div>
                             <div class="form-group">
-
-                                <input type="text" class="form-control" id="telephone" placeholder="Telephone Number">
+                                    <input type="tel" pattern='^\+?\d{0,13}' class="form-control" id="phoneNumber" placeholder="Telephone Number" required data-toggle="tooltip" data-placement="top" title="Please enter a valid Telephone number"> 
                             </div>
                             <div class="form-group">
                                 <h4>I am interested in:</h4>
@@ -484,7 +483,7 @@
                                 </div>
                             </div>
                             <div class="snd-btn">
-                            <button type="button" class="btn btn-send">Send</button>
+                            <button type="submit" class="btn btn-send">Send</button>
                         </div>
                         </form>
                     </div>
