@@ -606,6 +606,7 @@ font-family: 'Marck Script', cursive;
     .audio-box-body {
      background-color: rgba(89,0,204,0.5) ;
      border-radius: 15%;
+     border: 1px solid #24B75E;
      padding: 5px;
     }
     @media (min-width: 768px) {
@@ -630,6 +631,7 @@ font-family: 'Marck Script', cursive;
    height: 120px;
    width: 120px;
    border-radius: 50%;
+   border: 1px solid #24B75E;
    margin-top: -12.5%;
    }
    @media (min-width: 576px) {
@@ -666,6 +668,9 @@ font-family: 'Marck Script', cursive;
 .back a {
   color: #fff;
   vertical-align: bottom;
+}
+.back i {
+  font-size: x-large;
 }
 .cover-originals {
   padding-top: 15%;
@@ -728,6 +733,7 @@ font-family: 'Marck Script', cursive;
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    border: 1px solid #24B75E;
     padding: 15px 0;
     color: #fff;
   }
