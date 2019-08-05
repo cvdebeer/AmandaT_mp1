@@ -65,6 +65,7 @@ font-family: 'Marck Script', cursive;
   .title .amanda {
    padding: 0;
    margin: 0;
+   width: 100%;
    font-family: 'Righteous', cursive;
    font-weight: 600;
    color: #0077CC;
@@ -116,7 +117,7 @@ font-family: 'Marck Script', cursive;
 
 .menu-toggle {
    float: right;
-  margin-right: 30px;
+  margin-right: 20px;
   padding: .75em 15px;
   line-height: 1em;
   font-size: 1em;
@@ -556,7 +557,8 @@ font-family: 'Marck Script', cursive;
    margin: 20px;
    border-style: double;
    padding: 5px;
-   
+   mask-image: radial-gradient(white, black);
+   -webkit-mask-image: -webkit-radial-gradient(white, black);
   }
   .plyr__video-embed iframe, .plyr__video-wrapper--fixed-ratio video {
     width: 90%;
