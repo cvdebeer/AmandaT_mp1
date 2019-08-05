@@ -99,7 +99,7 @@ font-family: 'Marck Script', cursive;
   .uppercase {
    text-transform: uppercase;
   }
-  /* -----------------------------------------------------------Navbar copied */
+  /* -----------------------------------------------------------Navbar copied  from Mark Caron off Medium.com and adjusted*/
   /* Screen reader only */
 
 .sr-only {
@@ -874,11 +874,11 @@ font-family: 'Marck Script', cursive;
     font-size: 80%;
    }
    .table button {
-    border: 1px solid #C8CC00;
+    border: 1px solid #CC5500;
     font-weight: 400;
    }
   }
-  .btn-outline-dark:hover {
+  .table .btn-outline-dark:hover {
     background-color: #CC5500;
     border-color: #fff;
   }

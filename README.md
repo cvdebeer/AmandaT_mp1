@@ -1,4 +1,4 @@
-# ![songbird](assets/images/songbird_orange_xs.png)   Amanda T. - Milestone Project 1
+# ![songbird](https://res.cloudinary.com/dgsqmdssi/image/upload/v1565017959/Amanda/songbird_orange_xs_iyklye.png)   Amanda T. - Milestone Project 1
 ***
 
 ##  Overview
@@ -61,6 +61,7 @@ Using Balsamiq [Here's My Mockup](https://github.com/cvdebeer/AmandaT_mp1/blob/m
 ***Font-awesome*** ~ <https://fontawesome.com/> ~ Used for all the icons in my site.  
 ***Google Fonts*** ~ <https://fonts.google.com/> ~ Used for all the fonts on my site.  
 ***Hover.css*** ~ <https://ianlunn.github.io/Hover/> ~ Used to style the hovers on my "Get in Touch" button and navbar links.
+***Cloudinary*** ~ <https://cloudinary.com> ~ Used to store my images off my repository, in order to keep it as small as possible as per industry standard.
 
 ## Testing
 Most of the testing for the project was done with Chrome Developer Tools.  
@@ -69,15 +70,16 @@ Most of the testing for the project was done with Chrome Developer Tools.
   -   I had to break down the columns into more pieces to allow space for margins on the video columns so that the boxes weren't ontop of each other. (Original md-6 and lg-4 changed to md-5 and lg-3 .
   -    A lot of adjustments needed to be made with the audio- visuals to keep them aligned within the audio files. 
 - The navigation bar was tested on all sizes. 
-  - I became aware that my full screen navbar on mobile and tablet did not actually close when you clicked on the link, eventhough you could see it scrolling on the right to the correct place and it worked fine in the desktop. After much research and trial and error trying to fix this problem, I figured out that it was caused by my fixed navbar. I only had two solutions, with my current knowledge:  
-        1.  Remove the sticky or fixed navbar (allowing my user no way to navigate once they had scrolled down) or  
-        2.  Leave the navbar in place and add a note onto the navbar on how to get to navigate through to the sections.  
-   I selected the second option.
+  - I became aware that my full screen navbar on mobile and tablet did not actually close when you clicked on the link, even though you could see it scrolling on the right to the correct place and it worked fine in the desktop. After much research and trial and error trying to fix this problem, I figured out that it was caused by my fixed navbar. I was very lucky to find a workable solution on [Medium.com](https://medium.com/) without which I would have just made a tooltip to instruct the user on what to do :disappointed_relieved:
 -  The form in the Modal was not validating. By using a combination of outlining the required elements in red border and tooltips I was able to highlight the requirements for the user. The "send" button on the Modal also needed to be changed to "submit" in order to run the validations properly. 
 -  The links were tested on the Flip-animations on desktop, tablet and mobile-all worked perfectly. Mobile and tablet will freeze in the flipped side if selected. User would not know that this is possible though at this time as there is no hover fucntionality and they would need to know to click on the image so is mainly geared at desktop users. (Might look at adding a note in future)
    
 I also tested on my Iphone and and Ipad to see the functionality across devices. 
 - I did notice that items that rendered well on the developer tools like the video, did not in fact properly render on the Iphone and Ipad, and I had to find work-arounds for them. I was able to partially fix the border-radius on the frame by using a mask with a radial gradient.
+
+I also tested my site on two Android devices without any noticable difficulties.
+- A Galaxy J5 phone and
+- A Kindle tablet.
 
 
 ## Deployment
@@ -95,6 +97,8 @@ https://convertico.com/  - to convert my png to ico so that it is more compatibl
 
 - sticky footer ~ <https://startbootstrap.com/snippets/sticky-footer-flexbox/>
 
+- Menu/ Navigation ~ <https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793>
+  
 ### Media
 The photos used in this site were obtained from ...
 
@@ -102,7 +106,7 @@ The photos used in this site were obtained from ...
 - Album cover- Alanis Morissete- <https://upload.wikimedia.org/wikipedia/en/4/47/Alanis_Morissette_-_Jagged_Little_Pill.jpg>
 - Album cover - City if Angels <https://upload.wikimedia.org/wikipedia/en/b/b6/City_of_angels_%28album_cover%29.jpg>
 - Album cover - Beatles- Come Together <https://upload.wikimedia.org/wikipedia/en/8/8c/Come_Together-Something_%28single_cover%29.jpg>
-- Background images - <https://pxhere.com/>
+- Background images and card-images- <https://pxhere.com/>
 - Images of Amanda - received from the artist herself.
   
 ### Acknowledgements
