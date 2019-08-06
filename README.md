@@ -3,7 +3,7 @@
 
 ##  Overview
 
-In keeping with the music theme of the default project, I decided to code  (using HTML and CSS) a website for my neice, who is an up and coming singer and songwriter. She is hoping to be "discovered" and signed by a record label and also needs a place for potential clients to find her and contact her to book her for functions. She needs a site that can show case her talents and give her user a view of who she is and what she has to offer.
+In keeping with the music theme of the default project, I decided to code  (using HTML and CSS) a website for my niece, who is an up and coming singer and songwriter. She is hoping to be "discovered" and signed by a record label and also needs a place for potential clients to find her and contact her to book her for functions. She needs a site that can show case her talents and give her user a view of who she is and what she has to offer.
 
 ## UX
 The artist requested that I design her a site that she could provide to potential clients and agents. 
@@ -29,16 +29,16 @@ Using Balsamiq [Here's My Mockup](https://github.com/cvdebeer/AmandaT_mp1/blob/m
 
 ## Features
 🔸  In the "Home" section, information and visuals are given of the artist by using Carousels. The information is provided in small, easy to read pieces and hopes to keep the user engaged.  
-🔸 The "Original Music" section, provides the user with a choice of videos that the artist has recorded. They can view them in the fram, enlarge them to full screen or follow them to YouTube. 
+🔸 The "Original Music" section, provides the user with a choice of videos that the artist has recorded. They can view them in the frame, enlarge them to full screen or follow them to YouTube. 
 - In future I would like to add image posters onto the videos, with the title of the song and a link to the lyrics.    
   
-🔸 The "cover music" section. Here I used a horizontal card design to create an audio-player.   
+🔸 The "Cover music" section. Here I used a horizontal card design to create an audio-player.   
 - Using styling provided by [David Walsh][1] I was able to create flip animations on the album covers and allows the user to click through to the original artists version of the song. 
 - Using an answer provided by [Fábio Zangirolami][2] on a Stackoverflow question, I was able to style my audio player to fit in with my theme.
 
-🔸 The "events" section has table with the location of future performances, allowing the user to book tickets. (The "Book Tickets" button is not currently functional  but will be on the list of future development, after  more knowledge is gained.).
+🔸 The "Events" section has table with the location of future performances, allowing the user to book tickets. (The "Book Tickets" button is not currently functional  but will be on the list of future development, after  more knowledge is gained.).
 
-🔸 The "news" section makes use of Bootstraps own "cards"  to create content that links to fuller articles or outside content for the user to explore. This is done so as not to overwhelm the user with too much content, but give them the ability to see more if they want to. Both buttons work and link to content.
+🔸 The "News" section makes use of Bootstraps own "cards"  to create content that links to fuller articles or outside content for the user to explore. This is done so as not to overwhelm the user with too much content, but give them the ability to see more if they want to. Both buttons work and link to content.
 
 🔸 The "Contact/ Get in touch" section is a Bootstrap Modal containing a form. The user can fill in their information and request the artist to make contact with them in relation to whatever category they have selected. There is a text box available should the user want to conver more information. (The contact form does not currently "go" anywhere as I don't have the knowledge yet so send the form- this will be part of future development)
 
@@ -48,12 +48,12 @@ Using Balsamiq [Here's My Mockup](https://github.com/cvdebeer/AmandaT_mp1/blob/m
 
 ***HTML5*** ~ main Language used to structure the sections of my website.  
 ***CSS3*** ~ styling language used to format and visually build upon the accompanying HTML.  
-***Bootstrap4 Framework*** ~ <https://getbootstrap.com/> ~ Used as the core structuring layout building blocks of the website, ensuring mobile-frist design and responsive size display.  
+***Bootstrap4 Framework*** ~ <https://getbootstrap.com/> ~ Used as the core structuring layout building blocks of the website, ensuring mobile-first design and responsive size display.  
 ***AWS Cloud9 and Visual Studio Code*** ~ Cloud9 was used as the initial IDE (Integrated Development Environment) for this project. VS code was coming highly recommended by other students, so I changed over due mainly to being kicked out of Cloud9 every hour.   
 ***Git*** ~ <https://git-scm.com/>~ Used to commit to local repository and further push to Github Repo ensuring version controlling of the project build. Originally used through Cloud9 and then downloaded to use in VScode.  
 ***Github*** ~ <https://github.com/>~ Used to host the deployed website and repository of all previous versions of the build.  
-***Google Chrome Developer Tools*** ~ Used as the core testing mechanism throughout the project build to see what the repsonsiveness accross all devices.  
-***ColorRules*** ~ <https://apps.apple.com/ca/app/colorrules/id1198369052> (Colour Picker) ~ Application used to obtain hexadecimal/rgba/hsl values of colours. It provides different varations of colour choices depending on the base colour you select.  
+***Google Chrome Developer Tools*** ~ Used as the core testing mechanism throughout the project build to see what the responsiveness across all devices.  
+***ColorRules*** ~ <https://apps.apple.com/ca/app/colorrules/id1198369052> (Colour Picker) ~ Application used to obtain hexadecimal/rgba/hsl values of colours. It provides different variations of colour choices depending on the base colour you select.  
 ***Colormind*** ~ <http://colormind.io/bootstrap/> For extra  help on colouring my website.  
 ***Balsamiq*** ~ <https://balsamiq.com/>~ Used for the Creation of my initial Wireframes for my project.  
 ***Pix-resizer*** ~ <https://pixresizer.windows10compatible.com/> ~ Programme used to make my images smaller without losing the aspect ratio.  
@@ -61,8 +61,11 @@ Using Balsamiq [Here's My Mockup](https://github.com/cvdebeer/AmandaT_mp1/blob/m
 ***Plyr*** ~ <https://plyr.io/> ~ used to style my video player.  
 ***Font-awesome*** ~ <https://fontawesome.com/> ~ Used for all the icons in my site.  
 ***Google Fonts*** ~ <https://fonts.google.com/> ~ Used for all the fonts on my site.  
-***Hover.css*** ~ <https://ianlunn.github.io/Hover/> ~ Used to style the hovers on my "Get in Touch" button and navbar links.
-***Cloudinary*** ~ <https://cloudinary.com> ~ Used to store my images off my repository, in order to keep it as small as possible as per industry standard.
+***Hover.css*** ~ <https://ianlunn.github.io/Hover/> ~ Used to style the hovers on my "Get in Touch" button and navbar links.  
+***Cloudinary*** ~ <https://cloudinary.com> ~ Used to store my images off my repository, in order to keep it as small as possible as per industry standard.  
+***W3 Markup Validation Service*** ~ <https://validator.w3.org/> ~ used to validate my HTML and CSS code.  
+***Autoprefixer CSS online*** ~ <https://autoprefixer.github.io/> ~ used to make my CSS more cross-browser compatible.
+
 
 ## Testing
 Most of the testing for the project was done with Chrome Developer Tools.  
@@ -73,12 +76,12 @@ Most of the testing for the project was done with Chrome Developer Tools.
 - The navigation bar was tested on all sizes. 
   - I became aware that my full screen navbar on mobile and tablet did not actually close when you clicked on the link, even though you could see it scrolling on the right to the correct place and it worked fine in the desktop. After much research and trial and error trying to fix this problem, I figured out that it was caused by my fixed navbar. I was very lucky to find a workable solution on [Medium.com](https://medium.com/) without which I would have just made a tooltip to instruct the user on what to do :disappointed_relieved:
 -  The form in the Modal was not validating. By using a combination of outlining the required elements in red border and tooltips I was able to highlight the requirements for the user. The "send" button on the Modal also needed to be changed to "submit" in order to run the validations properly. 
--  The links were tested on the Flip-animations on desktop, tablet and mobile-all worked perfectly. Mobile and tablet will freeze in the flipped side if selected. User would not know that this is possible though at this time as there is no hover fucntionality and they would need to know to click on the image so is mainly geared at desktop users. (Might look at adding a note in future)
+-  The links were tested on the Flip-animations on desktop, tablet and mobile-all worked perfectly. Mobile and tablet will freeze in the flipped side if selected. User would not know that this is possible though at this time as there is no hover functionality and they would need to know to click on the image so is mainly geared at desktop users. (Might look at adding a note in future)
    
-I also tested on my Iphone and and Ipad to see the functionality across devices. 
+I also tested on my Iphone and Ipad to see the functionality across devices. 
 - I did notice that items that rendered well on the developer tools like the video, did not in fact properly render on the Iphone and Ipad, and I had to find work-arounds for them. I was able to partially fix the border-radius on the frame by using a mask with a radial gradient.
 
-I also tested my site on two Android devices without any noticable difficulties.
+I also tested my site on two Android devices without any noticeable  difficulties.
 - A Galaxy J5 phone and
 - A Kindle tablet.
 
@@ -111,7 +114,8 @@ The photos used in this site were obtained from ...
 - Images of Amanda - received from the artist herself.
   
 ### Acknowledgements
-Thanks to all the mentors on Slack and my own for helping me when I got stuck. Couldn't have done it without their help.
+Thanks to all the mentors on Slack and my own for helping me when I got stuck. I couldn't have done it without their help.  
+Also, to all the people out there that ask questions, and all the wonderful guys that helped them find solutions, and thereby me find solutions when I got stuck.
 
 
 

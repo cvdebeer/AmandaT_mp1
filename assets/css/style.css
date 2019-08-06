@@ -144,8 +144,17 @@ font-family: 'Marck Script', cursive;
   height: 100%;
   overflow-y: scroll;
   overflow-x: visible;
+  -webkit-transition: left 0.3s ease,
+    	-webkit-box-shadow 0.3s ease;
+  transition: left 0.3s ease,
+    	-webkit-box-shadow 0.3s ease;
+  -o-transition: left 0.3s ease,
+    	box-shadow 0.3s ease;
   transition: left 0.3s ease,
     	box-shadow 0.3s ease;
+  transition: left 0.3s ease,
+    	box-shadow 0.3s ease,
+    	-webkit-box-shadow 0.3s ease;
   z-index: 999;
 }
 @media (max-width:991px) {
@@ -192,7 +201,6 @@ font-family: 'Marck Script', cursive;
   display: block;
   left: 0;
   outline: none;
-  -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
   -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
   box-shadow: 3px 0 12px rgba(0,0,0,.25);
 }
@@ -260,13 +268,14 @@ font-family: 'Marck Script', cursive;
   }
 
   .main-menu ul {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;   
 
     /* Undo off-canvas styling */
 
     padding: 0;
     -webkit-box-shadow: none;
-       -moz-box-shadow: none;
             box-shadow: none;
     height: auto;
     width: auto;
