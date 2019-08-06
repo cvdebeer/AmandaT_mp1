@@ -412,15 +412,16 @@ font-family: 'Marck Script', cursive;
     .social-links-sm i {
      font-size: x-large;
      padding: 30px 10px;
+     color: #fff;
    }
   } 
-  .social-links-sm .fa-facebook{
+  .social-links-sm .fa-facebook:hover {
    color: #3b5998;
   }  
-  .social-links-sm .fa-youtube{
+  .social-links-sm .fa-youtube:hover {
     color: #c4302b;
    }  
-   .social-links-sm .fa-instgram{
+   .social-links-sm .fa-instgram:hover {
     color: #3f729b ;
    }
   @media (min-width:768px) and (max-width: 991px) {
