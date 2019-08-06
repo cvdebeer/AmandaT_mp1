@@ -1,22 +1,3 @@
-/*-----------------------------------------------------------Fonts
-h1, h2, h3, h4, h5, h6 {
-font-family: 'Jura', sans-serif;
-}
-
-p {
-font-family: 'Exo 2', sans-serif;
-
-}
-font-family: 'Marck Script', cursive;
-
-
-* {
- background: #000 !important;
- color: #0f0 !important;
- outline: solid #f00 1px !important;
-}
-
-  */
 
   html {
     margin: 0;
@@ -289,7 +270,7 @@ font-family: 'Marck Script', cursive;
   .main-menu a:hover,
   .main-menu a:focus {
     background: none; /* Remove background from off-canvas styling */
-    color: #c00;
+    color:#CC5500;
   }
 }
 
