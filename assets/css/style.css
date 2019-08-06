@@ -129,8 +129,6 @@
     	-webkit-box-shadow 0.3s ease;
   transition: left 0.3s ease,
     	-webkit-box-shadow 0.3s ease;
-  -o-transition: left 0.3s ease,
-    	box-shadow 0.3s ease;
   transition: left 0.3s ease,
     	box-shadow 0.3s ease;
   transition: left 0.3s ease,
@@ -715,7 +713,6 @@
   /* flip speed goes here */
   .flipper {
     -webkit-transition: 0.6s;
-    -o-transition: 0.6s;
     transition: 0.6s;
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
