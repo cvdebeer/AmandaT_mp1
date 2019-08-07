@@ -308,7 +308,7 @@
   }
   .hover-music .hvr-sweep-to-top:before {
     background: #5900CC;
-   }
+  }
    .hover-events .hvr-sweep-to-top:before {
     background:#171B8F;
    }
@@ -911,6 +911,7 @@
    .card {
      margin: auto;
      margin-bottom: 15px;
+     padding: 15px;
    }
   .card-body {
    color: #171B8F;
@@ -1000,7 +1001,7 @@
        flex-shrink: none;
    background-color: #cc5500;
    color: #fff;   
-   height: 50px;
+   height:auto;
    padding-top: 15px;
   }
   #sticky-footer a {

@@ -62,7 +62,7 @@ Using Balsamiq [Here's My Mockup](https://github.com/cvdebeer/AmandaT_mp1/blob/m
 ***Font-awesome*** ~ <https://fontawesome.com/> ~ Used for all the icons in my site.  
 ***Google Fonts*** ~ <https://fonts.google.com/> ~ Used for all the fonts on my site.  
 ***Hover.css*** ~ <https://ianlunn.github.io/Hover/> ~ Used to style the hovers on my "Get in Touch" button and navbar links.  
-***Cloudinary*** ~ <https://cloudinary.com> ~ Used to store my images off my repository, in order to keep it as small as possible as per industry standard.  
+***Cloudinary*** ~ <https://cloudinary.com> ~ Used for caching my images away from my repository, in order to keep it as small as possible as per industry standard.  
 ***W3 Markup Validation Service*** ~ <https://validator.w3.org/> ~ used to validate my HTML and CSS code.  
 ***Autoprefixer CSS online*** ~ <https://autoprefixer.github.io/> ~ used to make my CSS more cross-browser compatible.
 
@@ -87,7 +87,7 @@ I also tested my site on two Android devices without any noticeable  difficultie
 
 
 ## Deployment
-This project was deployed using Git to the Github repository.
+This project was deployed using Git to the Github pages.
 
 
 ## Credits
