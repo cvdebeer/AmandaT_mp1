@@ -27,7 +27,7 @@
   
   /* ------------------------------------------------------------Header */
   
-  .sm-links {
+  .sm-links i {
    padding: 0;
    font-size: x-large;
    color: #cc5500;
@@ -35,7 +35,7 @@
    margin-left: 15px;
   }
   
-  .sm-links:hover {
+  .sm-links i:hover {
    color: #171B8F;
   }
   
@@ -397,10 +397,13 @@
     padding: 10px; 
    
    }
+   .social-links-sm a {
+    display: inline;
+    padding: 10px;
+   }
     .social-links-sm i {
      font-size: x-large;
-     padding: 30px 10px;
-     color: #fff;
+      color: #fff;
    }
   } 
   .social-links-sm .fa-facebook:hover {
@@ -837,6 +840,7 @@
   
   .table .date {
    color: #fff;
+   text-align: left;  
   }
   .date i {
     color: #CC5500;
