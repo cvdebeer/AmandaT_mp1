@@ -83,7 +83,12 @@ I also tested on my Iphone and Ipad to see the functionality across devices.
 
 I also tested my site on two Android devices without any noticeable  difficulties.
 - A Galaxy J5 phone and
-- A Kindle tablet.
+- A Kindle tablet.  
+
+The HTML and CSS files were run through Markup Validator, to check the quality of the code. Based on the return, I cleaned up some of code on both HTML and CSS
+- some code warnings were left, as these belonged to code used from other developers
+  -  this was around the Navbar with onClick functions. 
+  -  CSS code that was left belonged to web-kit additions made by the CSS Autoprefixer that was used to try and make the code cross platform.
 
 
 ## Deployment
